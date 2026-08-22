@@ -1,5 +1,5 @@
 @echo off
-rem deploy.bat - Envia o projeto para o GitHub (e Netlify publica sozinho se ligado)
+rem deploy.bat - Envia o projeto para o GitHub e publica no Netlify
 rem Uso:  deploy.bat "Mensagem da alteracao"
 cd /d "%~dp0"
 
@@ -13,13 +13,14 @@ rem 2. Commit e push de tudo o que mudou
 git add -A
 git diff --cached --quiet
 if %errorlevel%==0 (
-  echo Nada para enviar - tudo ja esta no GitHub.
-  exit /b 0
+  echo Nada para enviar ao GitHub - tudo ja la esta.
+) else (
+  git commit -m "%MSG%"
+  git push
 )
 
-git commit -m "%MSG%"
-git push
+rem 3. Publicar no Netlify (site: fireprincat)
+netlify deploy --prod --dir "site fireprin" --no-build
 
 echo.
-echo Enviado para o GitHub: %MSG%
-echo O Netlify publica automaticamente em ~1-2 min (se o repositorio estiver ligado).
+echo GitHub atualizado e site publicado: https://fireprincat.netlify.app
