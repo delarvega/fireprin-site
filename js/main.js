@@ -4,7 +4,7 @@ var catalogoData = {
     {
       "id": "agulhetas",
       "nome": "Agulhetas",
-      "imagem": "assets/catalogo_final_corrigido/imagens/AGULHETAS/AGULHETA ALEMA DE 25/AGULHETA ALEMA DE 25.jpg",
+      "imagem": "assets/catalogo_final_corrigido/imagens/AGULHETAS/AGULHETA AMERICANA 45/AGULHETA AMERICANA 45.jpg",
       "descricao": "Agulhetas variomáticas e acessórios"
     },
     {
