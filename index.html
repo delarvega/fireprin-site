@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fireprin - Segurança contra Incêndio</title>
+  <meta name="description" content="Fireprin - Venda e manutenção de extintores, sprinklers, redes de incêndio, sinalização e iluminação de emergência em Lisboa.">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+  <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+  <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+  <link rel="canonical" href="https://fireprin.pt/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" as="style">
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+</head>
+<body data-page="home">
+  <header class="header">
+    <div class="header-container">
+      <a href="index.html"><img src="assets/logo.png" alt="Fireprin" class="logo" width="360" height="120"></a>
+      <div class="header-center">
+        <button class="search-toggle" id="searchToggle" aria-label="Pesquisar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
+        <div class="menu-toggle"><span></span><span></span><span></span></div>
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#servicos">Serviços</a>
+          <div class="dropdown">
+            <a href="pages/catalogo.html">Catálogo</a>
+            <div class="dropdown-content" id="menuDropdown"></div>
+          </div>
+          <a href="#contato">Contacto</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="search-overlay" id="searchOverlay">
+    <div class="search-container">
+      <div class="search-input-wrap">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" class="search-input" id="searchInput" placeholder="Pesquisar produtos, categorias..." autocomplete="off">
+        <span class="search-kbd">ESC</span>
+      </div>
+      <div class="search-results" id="searchResults"></div>
+      <div class="search-hint">
+        <kbd>↑</kbd><kbd>↓</kbd> navegar &nbsp;·&nbsp; <kbd>Enter</kbd> selecionar &nbsp;·&nbsp; <kbd>ESC</kbd> fechar
+      </div>
+    </div>
+  </div>
+    </div>
+  </header>
+
+  <section class="hero"></section>
+
+  <div class="hero-cta">
+    <div class="hero-cta-buttons">
+      <a href="pages/catalogo.html" class="btn btn-primary">Ver Catálogo</a>
+      <a href="#sobre" class="btn btn-secondary">Saber Mais</a>
+    </div>
+  </div>
+
+  <section id="sobre" class="sobre">
+    <div class="sobre-content">
+      <div class="sobre-text">
+        <h3>Sobre a <span>Fireprin</span></h3>
+        <p>A Fireprin Lisboa é especializada na instalação e manutenção de sistemas de segurança contra incêndios, atuando com rigor técnico e total conformidade com as normas nacionais.</p>
+        <p>Serviços:</p>
+        <ul>
+          <li>Sistemas automáticos de deteção de incêndio e gases</li>
+          <li>Extintores – manutenção certificada segundo a Norma NP 4413</li>
+          <li>Sistemas de extinção por água, água nebulizada e agentes distintos</li>
+          <li>Sinalização de segurança para edifícios e indústrias</li>
+        </ul>
+        <p>Visão:</p>
+        <p>Ser uma referência em SCIE, oferecendo soluções modernas, seguras e eficientes, sempre com foco na inovação e na satisfação dos clientes.</p>
+        <p>Missão:</p>
+        <p>Garantir serviços de excelência, com competência, rigor e transparência, construindo relações de confiança com clientes e parceiros.</p>
+        <p>Valores:</p>
+        <div class="valores-grid">
+          <div class="valor-item"><span>Lealdade</span></div>
+          <div class="valor-item"><span>Integridade</span></div>
+          <div class="valor-item"><span>Profissionalismo</span></div>
+          <div class="valor-item"><span>Dedicação</span></div>
+          <div class="valor-item"><span>Respeito</span></div>
+        </div>
+        <p style="margin-top: 2rem;">Política da Qualidade:</p>
+        <p>A Fireprin Lisboa promove uma cultura de qualidade baseada no foco total no cliente, melhoria contínua, cumprimento das normas NP EN ISO 9001 e NP 4413, formação técnica e parcerias de confiança.</p>
+      </div>
+      <div class="sobre-destaque" style="display:block">
+        <img src="assets/sobre.gif" alt="Sobre a Fireprin" style="width:100%;border-radius:var(--raio)">
+      </div>
+    </div>
+  </section>
+
+<section id="servicos" class="servicos">
+    <div class="section-header">
+      <h2>Os Nossos <span class="accent">Serviços</span></h2>
+      <p>Oferecemos uma gama completa de soluções de segurança contra incêndio</p>
+    </div>
+    <div class="servicos-grid">
+      <div class="servico-card">
+        <div class="servico-img-wrap">
+          <img src="assets/extintores.png" alt="Extintores">
+          <div class="servico-img-overlay"><h3>Extintores</h3></div>
+        </div>
+        <div class="servico-body">
+          <p>Venda, manutenção e revisão de extintores de todos os tipos e dimensões.</p>
+        </div>
+      </div>
+      <div class="servico-card">
+        <div class="servico-img-wrap">
+          <img src="assets/rede-incendio.png" alt="Redes de Incêndio">
+          <div class="servico-img-overlay"><h3>Redes de Incêndio</h3></div>
+        </div>
+        <div class="servico-body">
+          <p>Instalação e manutenção de redes de água para combate a incêndio.</p>
+        </div>
+      </div>
+      <div class="servico-card">
+        <div class="servico-img-wrap">
+          <img src="assets/sprinklers.png" alt="Sprinklers">
+          <div class="servico-img-overlay"><h3>Sprinklers</h3></div>
+        </div>
+        <div class="servico-body">
+          <p>Sistemas automáticos de aspersão para proteção contra incêndio.</p>
+        </div>
+      </div>
+      <div class="servico-card">
+        <div class="servico-img-wrap">
+          <img src="assets/sinaletica.png" alt="Sinalização">
+          <div class="servico-img-overlay"><h3>Sinalização</h3></div>
+        </div>
+        <div class="servico-body">
+          <p>Sinalização fotoluminescente e iluminação de emergência certificada.</p>
+        </div>
+      </div>
+<div class="servico-card" style="overflow: hidden; width: 100%; max-width: none; grid-column: 1 / -1;">
+          <div style="position: relative; width: 100%; margin: 0 auto;">
+          <div class="portfolio-imgs" id="portfolioImgs" style="position: relative; width: 100%; display: flex; justify-content: center; gap: 16px; overflow: hidden; flex-wrap: wrap;"></div>
+        </div>
+        <style>
+          .portfolio-imgs img:hover { transform: scale(1.1); }
+        </style>
+    </div>
+  </section>
+<section class="catalogo">
+    <div class="section-header">
+      <h2>Nosso <span class="accent">Catálogo</span></h2>
+      <p>Explore todas as nossas categorias de produtos de segurança contra incêndio</p>
+    </div>
+    <div class="catalogo-grid" id="categoriasHome"></div>
+    <div style="text-align:center;margin-top:3rem">
+      <a href="pages/catalogo.html" class="btn btn-primary">Ver catálogo completo</a>
+    </div>
+  </section>
+
+  <section id="contato" class="contato">
+    <div class="section-header">
+      <h2>Entre em <span style="color:var(--caution-yellow)">Contacto</span></h2>
+      <p>Estamos disponíveis para esclarecer todas as suas dúvidas</p>
+    </div>
+    <div class="contato-container">
+      <div class="contato-info">
+        <div class="contato-item">
+          <svg class="contato-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          <div>
+            <h4>Morada</h4>
+            <p>Rua de Sevilha, Nº 5<br>2605-868 Casal de Cambra</p>
+          </div>
+        </div>
+        <div class="contato-item">
+          <svg class="contato-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <div>
+            <h4>Telefone</h4>
+            <p>219 810 659</p>
+          </div>
+        </div>
+        <div class="contato-item">
+          <svg class="contato-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          <div>
+            <h4>Email</h4>
+            <p>geral@fireprin.pt</p>
+          </div>
+        </div>
+        <div class="contato-item">
+          <a href="https://www.instagram.com/fireprinlisboa/" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:flex;gap:16px;align-items:flex-start">
+            <svg class="contato-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            <div>
+              <h4>Instagram</h4>
+              <p>@fireprinlisboa</p>
+            </div>
+          </a>
+        </div>
+        <div class="contato-item">
+          <a href="https://www.facebook.com/p/Fireprin-Lisboa-100075951224197/" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:flex;gap:16px;align-items:flex-start">
+            <svg class="contato-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            <div>
+              <h4>Facebook</h4>
+              <p>Fireprin Lisboa</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="contato-mapa">
+        <iframe src="https://maps.google.com/maps?q=Rua+de+Sevilha+5+Casal+de+Cambra+Portugal&t=&z=16&ie=UTF8&iwloc=&output=embed" style="width:100%;height:400px;border:0;border-radius:var(--raio)" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <img src="assets/logo.png" alt="Fireprin" class="logo" loading="lazy" width="120" height="40">
+        <p>Fireprin Lisboa Lda<br>Rua de Sevilha, Nº 5<br>2605-868 Casal de Cambra<br>Tel: 219 810 659</p>
+      </div>
+      <div class="footer-links">
+        <h4>Links Rápidos</h4>
+        <a href="index.html">Home</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+      </div>
+      <div class="footer-links">
+        <h4>Categorias</h4>
+        <a href="pages/categoria.html?id=extintores">Extintores</a>
+        <a href="pages/categoria.html?id=hidrantes">Hidrantes</a>
+        <a href="pages/categoria.html?id=exprinklers">Sprinklers</a>
+        <a href="pages/categoria.html?id=sinalizacao">Sinalização</a>
+      </div>
+      <div class="footer-links">
+        <h4>Atividades</h4>
+        <a href="#servicos">Venda e manutenção de extintores</a>
+        <a href="#servicos">Instalação de redes de incêndio</a>
+        <a href="#servicos">Sistemas de sprinklers</a>
+        <a href="#servicos">Sinalização e iluminação de emergência</a>
+      </div>
+    </div>
+    <div class="footer-bottom"><p>&copy; 2026 Fireprin Lisboa Lda. Todos os direitos reservados. | <a href="pages/politica-privacidade.html" style="color:var(--amarelo);text-decoration:none">Política de Privacidade</a></p></div>
+  </footer>
+
+  <div id="cookieBanner" class="cookie-banner">
+    <div class="cookie-content">
+      <p>Este site utiliza apenas funcionalidades técnicas essenciais. Não utilizamos cookies de rastreamento. Ao continuar a navegar, concorda com a nossa <a href="pages/politica-privacidade.html">Política de Privacidade</a>.</p>
+      <button id="cookieAccept" class="btn btn-primary" style="padding:.5rem 1.5rem;font-size:.85rem">Aceitar</button>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script>
+    (function(){
+      var banner=document.getElementById('cookieBanner');
+      var btn=document.getElementById('cookieAccept');
+      if(!banner||!btn)return;
+      if(localStorage.getItem('cookieAccepted')){banner.style.display='none';return}
+      btn.addEventListener('click',function(){localStorage.setItem('cookieAccepted','1');banner.style.display='none'});
+    })();
+  </script>
+<button class="back-to-top" id="backToTop" aria-label="Voltar ao topo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg></button>
+  </body>
+</html>

@@ -1,0 +1,2253 @@
+var catalogoData = {
+  "ultima_atualizacao": "2026-08-20",
+  "categorias": [
+    {
+      "id": "agulhetas",
+      "nome": "Agulhetas",
+      "imagem": "assets/catalogo_final_corrigido/imagens/AGULHETAS/AGULHETA ALEMA DE 25/AGULHETA ALEMA DE 25.jpg",
+      "descricao": "Agulhetas variomáticas e acessórios"
+    },
+    {
+      "id": "armarios-extintor",
+      "nome": "Armários Extintor",
+      "imagem": "assets/catalogo_final_corrigido/imagens/ARMARIOS EXTINTOR/AHYNOA/AHYNOA.jpg",
+      "descricao": "Armários para extintores e equipamentos"
+    },
+    {
+      "id": "bies",
+      "nome": "Bocas de Incêndio Armadas",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/ARCOPETTY/ARCOPETTY.jpg",
+      "descricao": "Sistemas completos de bocas de incêndio armadas"
+    },
+    {
+      "id": "coluna-seca",
+      "nome": "Coluna Seca",
+      "imagem": "assets/catalogo_final_corrigido/imagens/COLUNA SECA/BIF45FIBRA - BIFURCACAO 45x45/BIF45FIBRA - BIFURCACION 45x45.jpg",
+      "descricao": "Acessórios e componentes para coluna seca"
+    },
+    {
+      "id": "exprinklers",
+      "nome": "Sprinklers",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/34 K115 RESPOSTA PADRAO/34 K115 RESPOSTA ESTANDAR.jpg",
+      "descricao": "Sprinklers standard, ocultos e armazenagem"
+    },
+    {
+      "id": "extintores",
+      "nome": "Extintores",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXTINTORES/BILI 2 - EXTINTOR DE CO2 DE 2KG/BILI 2 - EXTINTOR DE CO2 DE 2KG.jpg",
+      "descricao": "Extintores de CO2, pó ABC, água e lítio"
+    },
+    {
+      "id": "hidrantes",
+      "nome": "Hidrantes",
+      "imagem": "assets/catalogo_final_corrigido/imagens/HIDRANTES/CASETA INTEMPERIE DE FIBRA E CHAPA/CASETA INTEMPIRIE DE FIBRA Y CHAPA.jpg",
+      "descricao": "Hidrantes de coluna seca, enterrados e húmidos"
+    },
+    {
+      "id": "jonesco",
+      "nome": "Jonesco",
+      "imagem": "assets/catalogo_final_corrigido/imagens/JONESCO/ARMARIO JBDE73/ARMARIO JBDE73.jpg",
+      "descricao": "Armários e cofres Jonesco"
+    },
+    {
+      "id": "mangueiras",
+      "nome": "Mangueiras",
+      "imagem": "assets/catalogo_final_corrigido/imagens/MANGUEIRAS/CARROS PORTAMANGUERAS/CARROS PORTAMANGUERAS.jpg",
+      "descricao": "Mangueiras semirrígidas e planas"
+    },
+    {
+      "id": "postos-comando",
+      "nome": "Postos de Comando",
+      "imagem": "assets/catalogo_final_corrigido/imagens/POSTO DE CONTROLE/GISA-ACV-FF - POSTO DE COMANDO/GISA-ACV-FF - POSTO DE COMTROL.jpg",
+      "descricao": "Postos de controlo húmidos e de dilúvio"
+    },
+    {
+      "id": "sinalizacao",
+      "nome": "Sinalização",
+      "imagem": "assets/catalogo_final_corrigido/imagens/SINALIZACAO/CF01/CF01.jpg",
+      "descricao": "Sinalização fotoluminescente de emergência"
+    },
+    {
+      "id": "alto-risco",
+      "nome": "Sistemas de Alto Risco",
+      "imagem": "assets/catalogo_final_corrigido/imagens/SISTEMA DE ALTO RISCO/CARROS PORTAMANGUERAS/CARROS PORTAMANGUERAS.jpg",
+      "descricao": "Espumíferos e sistemas de altura risco"
+    },
+    {
+      "id": "valvulas",
+      "nome": "Válvulas",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS/VALVULA 25/VALVULA 25.jpg",
+      "descricao": "Válvulas de esfera, borboleta e acessórios"
+    },
+    {
+      "id": "valvulas-compressao",
+      "nome": "Válvulas Compressão",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS COMPRESSAO/D81 - VALVULA BORBOLETA COM ALAVANCA RANHURADA/D81 - VALVULA MARIPOSA COM ALAVANCA RANHURADA.jpg",
+      "descricao": "Válvulas de compressão e acessórios ranhurados"
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "categoria": "agulhetas",
+      "nome": "AGULHETA ALEMÃ DE 25",
+      "referencia": "1786956815-1",
+      "descricao": "Agulheta alemã de alta qualidade Ø25mm para sistema de extinção de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/AGULHETAS/AGULHETA ALEMA DE 25/AGULHETA ALEMA DE 25.jpg"
+    },
+    {
+      "id": 2,
+      "categoria": "agulhetas",
+      "nome": "AGULHETA ALEMÃ DE 45",
+      "referencia": "1786956815-2",
+      "descricao": "Agulheta alemã de alta qualidade Ø45mm para sistema de extinção de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/AGULHETAS/AGULHETA ALEMA DE 45/AGULHETA ALEMA DE 45.jpg"
+    },
+    {
+      "id": 3,
+      "categoria": "agulhetas",
+      "nome": "AGULHETA ALEMÃ DE 70",
+      "referencia": "1786956815-3",
+      "descricao": "Agulheta alemã de alta qualidade Ø70mm para sistema de extinção de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/AGULHETAS/AGULHETA ALEMA DE 70/AGULHETA ALEMA DE 70.jpg"
+    },
+    {
+      "id": 4,
+      "categoria": "agulhetas",
+      "nome": "AGULHETA AMERICANA 25",
+      "referencia": "1786956815-4",
+      "descricao": "Agulheta americana de alumínio 3 efeitos mais alavanca Ø25, de 1″ Com racor Barcelona 25 opcional.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/AGULHETAS/AGULHETA AMERICANA 25/AGULHETA AMERICANA 25.jpg"
+    },
+    {
+      "id": 5,
+      "categoria": "agulhetas",
+      "nome": "AGULHETA AMERICANA 45",
+      "referencia": "1786956815-5",
+      "descricao": "Agulheta americana de alumínio 3 efeitos mais alavanca Ø45, de 1½» com racor Barcelona opcional.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/AGULHETAS/AGULHETA AMERICANA 45/AGULHETA AMERICANA 45.jpg"
+    },
+    {
+      "id": 6,
+      "categoria": "agulhetas",
+      "nome": "AGULHETA GISAFIBER 45",
+      "referencia": "1786956815-6",
+      "descricao": "Agulheta profissional tipo pistola 3 efeitos Ø45 com rosca 1½». caudal regulável tanto em bocal como em alavanca. Racor Barcelona opcional.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/AGULHETAS/AGULHETA GISAFIBER 45/AGULHETA GISAFIBER 45.jpg"
+    },
+    {
+      "id": 7,
+      "categoria": "agulhetas",
+      "nome": "AGULHETA GISAFIBER 70",
+      "referencia": "1786956815-7",
+      "descricao": "Agulheta profissional tipo pistola 3 efeitos Ø70 com rosca 2½». caudal regulável tanto em bocal como em alavanca. Racor Barcelona opcional.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/AGULHETAS/AGULHETA GISAFIBER 70/AGULHETA GISAFIBER 70.jpg"
+    },
+    {
+      "id": 8,
+      "categoria": "agulhetas",
+      "nome": "AGULHETA GISAFIBER DE 25MM",
+      "referencia": "1786956815-8",
+      "descricao": "Agulheta profissional tipo pistola GISAFIBER 3 efeitos Ø25mm",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/AGULHETAS/AGULHETA GISAFIBER DE 25MM/AGULHETA GISAFIBER DE 25MM.jpg"
+    },
+    {
+      "id": 9,
+      "categoria": "agulhetas",
+      "nome": "AGULHETA VARIOMATIC DE 45",
+      "referencia": "1786956815-9",
+      "descricao": "Agulheta variomatic de 45 rosca 1½» fêmea Racor barcelona incluído",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/AGULHETAS/AGULHETA VARIOMATIC DE 45/AGULHETA VARIOMATIC DE 45.jpg"
+    },
+    {
+      "id": 10,
+      "categoria": "agulhetas",
+      "nome": "VARIOMATIC 25",
+      "referencia": "1786956815-10",
+      "descricao": "Agulheta variomatic de 25. rosca fêmea 1″, Racor Barcelona incluído.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/AGULHETAS/VARIOMATIC 25/VARIOMATIC 25.jpg"
+    },
+    {
+      "id": 11,
+      "categoria": "agulhetas",
+      "nome": "VARIOMATIC 25 ALUMÍNIO",
+      "referencia": "1786956815-11",
+      "descricao": "Agulheta variomatic de 25. Fabricada em alumínio. (Racor Barcelona opcional)",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/AGULHETAS/VARIOMATIC 25 ALUMINIO/VARIOMATIC 25 ALUMINIO.jpg"
+    },
+    {
+      "id": 12,
+      "categoria": "agulhetas",
+      "nome": "VARIOMATIC 25 LATÃO",
+      "referencia": "1786956815-12",
+      "descricao": "Agulheta variomatic em latão cromado. (Racor Barcelona não incluído)",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/AGULHETAS/VARIOMATIC 25 LATAO/VARIOMATIC 25 LATAO.jpg"
+    },
+    {
+      "id": 13,
+      "categoria": "agulhetas",
+      "nome": "VARIOMATIC 45 ALUMÍNIO",
+      "referencia": "1786956815-13",
+      "descricao": "Agulheta variomatic em alumínio. (Racor Barcelona incluído)",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/AGULHETAS/VARIOMATIC 45 ALUMINIO/VARIOMATIC 45 ALUMINIO.jpg"
+    },
+    {
+      "id": 14,
+      "categoria": "agulhetas",
+      "nome": "VARIOMATIC 45 LATÃO",
+      "referencia": "1786956815-14",
+      "descricao": "Agulheta variomatic em latão cromado. (Racor Barcelona incluído)",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/AGULHETAS/VARIOMATIC 45 LATAO/VARIOMATIC 45 LATAO.jpg"
+    },
+    {
+      "id": 15,
+      "categoria": "agulhetas",
+      "nome": "VARIOMATIC 70 ALUMÍNIO",
+      "referencia": "1786956815-15",
+      "descricao": "Agulheta variomatic. Fabricada em alumínio. (Racor Barcelona não incluído)",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/AGULHETAS/VARIOMATIC 70 ALUMINIO/VARIOMATIC 70 ALUMINIO.jpg"
+    },
+    {
+      "id": 16,
+      "categoria": "armarios-extintor",
+      "nome": "AHYNOA",
+      "referencia": "1786956713-1",
+      "descricao": "ARMÁRIO construído em uma peça de chapa branca, pintado em pintura de poliéster ao forno de 80 micras de espessura. Estampado lateral para ventilação. Pretroquelado em a parte posterior para su instalação em suportes de extintor de parede. Ou metacrilato se desloca por dois carriles facilitando ou manutenção do extintor. possibilidade de metacrilato serigrafado ou vidro fosco / tratado a ácido.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/ARMARIOS EXTINTOR/AHYNOA/AHYNOA.jpg"
+    },
+    {
+      "id": 17,
+      "categoria": "armarios-extintor",
+      "nome": "AICARRO",
+      "referencia": "1786956713-2",
+      "descricao": "ARMÁRIO de extintor para intempérie fabricado em chapa poliéster de 1.2mm. Dimensões: 1100X570X600 para extintores de 25 E 50KG (No incluídos) 1100X800X1000 para Carro GMG50/100 (No incluído)",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/ARMARIOS EXTINTOR/AICARRO/AICARRO.jpg"
+    },
+    {
+      "id": 18,
+      "categoria": "armarios-extintor",
+      "nome": "AREEIRO",
+      "referencia": "1786956713-3",
+      "descricao": "Areheiro fabricado em chapa.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/ARMARIOS EXTINTOR/ARENERO/ARENERO.jpg"
+    },
+    {
+      "id": 19,
+      "categoria": "armarios-extintor",
+      "nome": "AREXFIBRA",
+      "referencia": "1786956713-4",
+      "descricao": "Inclui base de betão com fibra de vidro e hendiduras para traspaleta. Ideal para alojar bidões de espumógeno, carros de extintor, etc.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/ARMARIOS EXTINTOR/AREXFIBRA/AREXFIBRA.jpg"
+    },
+    {
+      "id": 20,
+      "categoria": "armarios-extintor",
+      "nome": "ARMÁRIO EXTINTOR POLIPROPILENO",
+      "referencia": "1786956713-15",
+      "descricao": "ARMÁRIO polipropileno para extintor de 6 E 9 KG",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/ARMARIOS EXTINTOR/ARMARIO EXTINTOR POLIPROPILENO/ARMARIO EXTINTOR POLIPROPILENO.jpg"
+    },
+    {
+      "id": 21,
+      "categoria": "armarios-extintor",
+      "nome": "ARMÁRIO para CHAVES",
+      "referencia": "1786956713-5",
+      "descricao": "ARMÁRIO fabricado em chapa para guardar chaves. Dimensões 110 x 110 x 55",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/ARMARIOS EXTINTOR/ARMARIO PARA CHAVES/ARMARIO PARA CHAVES.jpg"
+    },
+    {
+      "id": 22,
+      "categoria": "armarios-extintor",
+      "nome": "EQUIPAMENTO AUXILIAR HRE56",
+      "referencia": "1786956713-6",
+      "descricao": "para armazenamento de mangueira e lanza, dentro ou fora de edifícios. Correa tejida para assegurar ou contenido. Fecho resistente ao água.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/ARMARIOS EXTINTOR/EQUIPAMENTO AUXILIAR HRE56/EQUIPAMENTO AUXILIAR HRE56.jpg"
+    },
+    {
+      "id": 23,
+      "categoria": "armarios-extintor",
+      "nome": "EQUIPAMENTO DE RESPIRAÇÃO",
+      "referencia": "1786956713-7",
+      "descricao": "ARMÁRIO para equipamento de respiração fabricado em chapa pintada. Dobradiça integral e fechadura abre-fácil GISA. Medidas: 700x500x230",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/ARMARIOS EXTINTOR/EQUIPAMENTO DE RESPIRACAO/EQUIPAMENTO DE RESPIRACAO.jpg"
+    },
+    {
+      "id": 24,
+      "categoria": "armarios-extintor",
+      "nome": "IBIGLASS",
+      "referencia": "1786956713-8",
+      "descricao": "ARMÁRIO de extintor idóneo para proyectos de decoração onde a estética é fundamental.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/ARMARIOS EXTINTOR/IBIGLASS/IBIGLASS.jpg"
+    },
+    {
+      "id": 25,
+      "categoria": "armarios-extintor",
+      "nome": "PAPELEIRA",
+      "referencia": "1786956713-10",
+      "descricao": "Papelera com tampa fabricada em chapa.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/ARMARIOS EXTINTOR/PAPELEIRA/PAPELEIRA.jpg"
+    },
+    {
+      "id": 26,
+      "categoria": "armarios-extintor",
+      "nome": "MOLDURA FIXA",
+      "referencia": "1786956713-9",
+      "descricao": "ARMÁRIO de extintor com marco fixo esamblado médiante 4 parafusos laterales.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/ARMARIOS EXTINTOR/MOLDURA FIXA/MOLDURA FIXA.jpg"
+    },
+    {
+      "id": 27,
+      "categoria": "armarios-extintor",
+      "nome": "PLANOS DE EVACUAÇÃO",
+      "referencia": "1786956713-11",
+      "descricao": "ARMÁRIO fabricado em chapa para planos de evacuação. Com dobradiça integral.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/ARMARIOS EXTINTOR/PLANOS DE EVACUACAO/PLANOS DE EVACUACAO.jpg"
+    },
+    {
+      "id": 28,
+      "categoria": "armarios-extintor",
+      "nome": "PLUS",
+      "referencia": "1786956713-12",
+      "descricao": "ARMÁRIO de extintor modelo tradicional GISA. Fechadura de chave.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/ARMARIOS EXTINTOR/PLUS/PLUS.jpg"
+    },
+    {
+      "id": 29,
+      "categoria": "armarios-extintor",
+      "nome": "STAR",
+      "referencia": "1786956713-13",
+      "descricao": "ARMÁRIO de extintor modelo tradicional. Dobradiça triple e porta encastrada.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/ARMARIOS EXTINTOR/STAR/STAR.jpg"
+    },
+    {
+      "id": 30,
+      "categoria": "armarios-extintor",
+      "nome": "SUNGLASS",
+      "referencia": "1786956713-14",
+      "descricao": "ARMÁRIO de extintor idóneo para proyectos de decoração onde a estética é fundamental.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/ARMARIOS EXTINTOR/SUNGLASS/SUNGLASS.jpg"
+    },
+    {
+      "id": 31,
+      "categoria": "bies",
+      "nome": "ARCOPETTY",
+      "referencia": "1786956529-28",
+      "descricao": "·SUPORTE: Arco tubo inoxidável Ø51. Dimensões1500 x 780 mm, com entrada de água rosca interior 1» ·ARMÁRIO: Dimensões 630 x 500 x 130. Construído em uma peça de chapa branca. Troquel lateral para ventilação, entrada troquelada para toma de água e furos em a parte inferior para desaguamento. Dobradiça integral, fechadura ABS abrefácil. ·CARRETEL: Pintado em vermelho Ral 3002, de 350 mm. com ángulo de giro de 180º ·MANGUEIRA: Plana de 45 mm com 15/20 metros de comprimento, fabricada segundo norma EN14540:2003 e com marca N de AENOR. Modelo Satur-45. ·RACORES: para conexão de agulheta e mangueira certificados AENOR conforme a norma UNE 23.400-2:1998 ·válvula de ASSENTO: Com saída a 110º, com roscas de 1½”. E com peça de verificação para ou manómetro. ·LANÇA: Variomatic de 45 mm, triple efeito (chorro, pulverização cónica e fecho) e rosca fêmea de 1½”. diâmetro equivalente de 13mm. ·MANÓMETRO: Com rosca de ¼” GAS. Escala de 0-16 kg/cm2",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/ARCOPETTY/ARCOPETTY.jpg"
+    },
+    {
+      "id": 32,
+      "categoria": "bies",
+      "nome": "ARCOPLUS",
+      "referencia": "1786956529-27",
+      "descricao": "boca de incêndio equipada de 25mm, segundo norma Em 671-1, de 650x680x180. ·SUPORTE: Arco tubo inoxidável Ø51. Dimensões1500 altura x 830 largura, com entrada de água rosca interior 1» ·ARMÁRIO: Dimensões 680 largura x 650 altura x 180 fondo. Construído em chapa branca, pintado em pintura poliéster, com rejilla lateral para ventilação, entrada troquelada para toma de água e furos em parte inferior para desaguamento. Dobradiça integral e fechadura ABS abre-fácil GISA. porta disponible com metacrilato 440 x 440 desmontable ou porta ciega. ·CARRETEL: Pintado em vermelho Ral 3002, de 525 mm, abatible 180º. Colector de poliamida-fibra de vidrio, anticorrosão e muito resistente a a fricção. ·MANGUEIRA: Semirrígida de 25 mm. e 20 metros de comprimento, fabricada segundo Norma Em 694:2001 e com certificado de produto AENOR. Modelo Satur – 25. ·válvula de assento : Com saída a 110º, com roscas de 1”. E com peça de verificação para ou manómetro. ·LANÇA: Variomatic de 25 mm, triple efeito (chorro, pulverização cónica e fecho) e rosca fêmea de 1”. diâmetro equivalente de 10mm. ·MANÓMETRO : Com rosca de ¼” GAS. Escala de 0-16 kg/cm2.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/ARCOPLUS/ARCOPLUS.jpg"
+    },
+    {
+      "id": 33,
+      "categoria": "bies",
+      "nome": "ARCOPOLI 25",
+      "referencia": "1786956529-29",
+      "descricao": "·SUPORTE: Arco tubo inoxidável Ø51. Dimensões1500 altura x 830 largura, com entrada de água rosca interior 1» Dimensões 760 altura x 740 largura x 250 fondo. Construído em polietileno reciclable e respetuoso com ou meio ambiente, así mesmo está dotado de estrutura reforçada e leve, resistente a a maioría de productos químicos, estanque e com uma resistencia a impactos superior a a de os armários de poliester similares. ·CARRETEL: Pintado em vermelho Ral 3002, de 350 mm. com ángulo de giro de 180º ·MANGUEIRA: Plana de 45 mm com 15 / 20 metros de comprimento, fabricada segundo norma EN14540:2003 e com marca N de AENOR. Modelo Satur-45. ·RACORES: para conexão de agulheta e mangueira certificados AENOR conforme a norma UNE 23.400-2:1998 ·válvula de ASSENTO: Com saída a 110º, com roscas de 1½”. E com peça de verificação para ou manómetro. ·LANÇA: Variomatic de 45 mm, triple efeito (chorro, pulverização cónica e fecho) e rosca de 1½”. diâmetro equivalente de 13mm. K mínimo 85 ·MANÓMETRO: Com rosca de ¼” GAS. Escala de 0-16 kg/cm2",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/ARCOPOLI 25/ARCOPOLI 25.jpg"
+    },
+    {
+      "id": 34,
+      "categoria": "bies",
+      "nome": "BASDOMIN",
+      "referencia": "1786956529-22",
+      "descricao": "Boca de incêndio com carretel basculante de Ø450mm, mangueira plana de 45mm e agulheta variomática",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/BASDOMIN/BASDOMIN.jpg"
+    },
+    {
+      "id": 35,
+      "categoria": "bies",
+      "nome": "BASPLUS 450",
+      "referencia": "1786956529-23",
+      "descricao": "Boca de incêndio equipada com carretel de Ø450mm, mangueira e agulheta variomática",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/BASPLUS 450/BASPLUS 450.jpg"
+    },
+    {
+      "id": 36,
+      "categoria": "bies",
+      "nome": "BASPLUS 525",
+      "referencia": "1786956529-24",
+      "descricao": "Boca de incêndio equipada com carretel de Ø525mm, mangueira e agulheta variomática",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/BASPLUS 525/BASPLUS 525.jpg"
+    },
+    {
+      "id": 37,
+      "categoria": "bies",
+      "nome": "BOXFIRE 5",
+      "referencia": "1786956529-11",
+      "descricao": "Boca de incêndio armada completa com carro, mangueira plana e agulheta variomática",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/BOXFIRE 5/BOXFIRE 5.jpg"
+    },
+    {
+      "id": 38,
+      "categoria": "bies",
+      "nome": "BOXFIRE 5TAD",
+      "referencia": "1786956529-1",
+      "descricao": "Boca de incêndio armada completa com carro, mangueira plana e agulheta variomática",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/BOXFIRE 5TAD/BOXFIRE 5TAD.jpg"
+    },
+    {
+      "id": 39,
+      "categoria": "bies",
+      "nome": "EBASS (FUNDO ESTREITO)",
+      "referencia": "1786956529-4",
+      "descricao": "Boca de incêndio para locais com espaço reduzido, fundo estreito",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/EBASS FUNDO ESTREITO/EBASS FUNDO ESTREITO.jpg"
+    },
+    {
+      "id": 40,
+      "categoria": "bies",
+      "nome": "EBASS FUNDO ESTREITO",
+      "referencia": "1786950000-40",
+      "descricao": "Boca de incêndio para locais com espaço reduzido, fundo estreito",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/EBASS FUNDO ESTREITO/EBASS FUNDO ESTREITO.jpg"
+    },
+    {
+      "id": 41,
+      "categoria": "bies",
+      "nome": "FIBRA",
+      "referencia": "1786956529-30",
+      "descricao": "apropriado para ambientes corrosivos, su composição lo hace practicamente inalterable. Dimensões 775 altura x 775 largura x 205 profundidade ·ARMÁRIO: Dimensões 775 altura x 775 largura x 205 fondo. Fabricado em fibra de vidro com Troquel em a parte inferior para entrada de água. Fecho rápido com tirador e bisagras de acero Inox. Ideal para instalaciões exteriores, gran resistencia a os agentes externos. ·CARRETEL: Pintado em vermelho Ral 3002, de 525 mm, extraible 180º. Colector de poliamida-fibra de vidrio, anticorrosão e muito resistente a a fricção. ·MANGUEIRA: Semirrígida de 25 mm. e 20 metros de comprimento, fabricada segundo Norma Em 694:2001 e com certificado de produto AENOR. Modelo Satur – 25. ·válvula de ASSENTO: Com saída a 110º, com roscas de 1”. E com peça de verificação para ou manómetro. ·LANÇA: Variomatic de 25 mm, triple efeito (chorro, pulverização cónica e fecho) e rosca fêmea de 1”. diâmetro equivalente de 10mm. ·MANÓMETRO: Com rosca de ¼” GAS. Escala de 0-16 kg/cm2.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/FIBRA/FIBRA.jpg"
+    },
+    {
+      "id": 42,
+      "categoria": "bies",
+      "nome": "GISAPOINT",
+      "referencia": "1786956529-25",
+      "descricao": "boca de incêndio fixa equipada com mangueira semirrígida. boca de incêndio modelo GISAPOINT. Carretel modelo BASDOMIN. Composta por carretel Ø450mm com alimentação axial e base fabricada em chapa de 3mm. Mangueira semirrígida de color branco de Ø25mm e 20m de comprimento, segundo EN694:2001 modelo SATUR25. válvula de bola 1” com manómetro e válvula antirretorno. Agulheta variomatic de triple efeito (diámetro equivalente 10mm).",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/GISAPOINT/GISAPOINT.jpg"
+    },
+    {
+      "id": 43,
+      "categoria": "bies",
+      "nome": "HUMPHREY",
+      "referencia": "1786956529-12",
+      "descricao": "Boca de incêndio modelo HUMPHREY com equipamento completo",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/HUMPHREY/HUMPHREY.jpg"
+    },
+    {
+      "id": 44,
+      "categoria": "bies",
+      "nome": "IBIGLASS",
+      "referencia": "1786956529-2",
+      "descricao": "ARMÁRIO de extintor idóneo para proyectos de decoração onde a estética é fundamental.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/IBIGLASS/IBIGLASS.jpg"
+    },
+    {
+      "id": 45,
+      "categoria": "bies",
+      "nome": "IBIGLASS MARK",
+      "referencia": "1786956529-3",
+      "descricao": "Boca de incêndio com armário de vidro idóneo para projetos de decoração",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/IBIGLASS MARK/IBIGLASS MARK.jpg"
+    },
+    {
+      "id": 46,
+      "categoria": "bies",
+      "nome": "IFRONT",
+      "referencia": "1786956529-10",
+      "descricao": "Boca de incêndio frontal para instalação embutida em parede",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/IFRONT/IFRONT.jpg"
+    },
+    {
+      "id": 47,
+      "categoria": "bies",
+      "nome": "MAXITEN",
+      "referencia": "1786956529-5",
+      "descricao": "Boca de incêndio com carretel de alta capacidade MAXITEN",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/MAXITEN/MAXITEN.jpg"
+    },
+    {
+      "id": 48,
+      "categoria": "bies",
+      "nome": "MINI15",
+      "referencia": "1786956529-13",
+      "descricao": "Dimensões 550 x 400 x 140 (MINI4515). ·CARRETE: Devanadera de 300 mm (Mini 4515) com ángulo de giro superior a 90º ·MANGUEIRA: Plana de 45 mm com 20/15 metros de comprimento, fabricada segundo norma EN14540:2003 e com marca N de AENOR. Modelo Satur-45. ·RACORES: para conexão de agulheta e mangueira certificados AENOR conforme a norma UNE 23.400-2:1998 ·válvula de ASSENTO: Com saída a 110º, com roscas de 1½”. E com peça de verificação para ou manómetro. ·LANÇA: Variomatic de 45 mm, triple efeito (chorro, pulverização cónica e fecho) e rosca fêmea de 1½”. diâmetro equivalente de 13mm. K mínimo 85 ·MANÓMETRO: Com rosca de ¼” GAS. Escala de 0-16 kg/cm2",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/MINI15/MINI15.jpg"
+    },
+    {
+      "id": 49,
+      "categoria": "bies",
+      "nome": "MINI20",
+      "referencia": "1786956529-14",
+      "descricao": "Boca de incêndio compacta para colunas com profundidade reduzida de 180mm",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/MINI20/MINI20.jpg"
+    },
+    {
+      "id": 50,
+      "categoria": "bies",
+      "nome": "MINI20M",
+      "referencia": "1786956529-15",
+      "descricao": "Desenhada especialmente para colunas com profundidade 180 mm para sistemas modulares. ·ARMÁRIO: Dimensiões: 650 altura x 400 largura x 180 fondo. ·CARRETE: Devanadera de 350 mm ·MANGUEIRA: Plana de 45 mm com 20/15 metros de comprimento, fabricada segundo norma EN14540:2003 e com marca N de AENOR. Modelo Satur-45. ·RACORES: para conexão de agulheta e mangueira certificados AENOR conforme a norma UNE 23.400-2:1998 ·válvula de ASSENTO: Com saída a 110º, com roscas de 1½”. E com peça de verificação para ou manómetro. ·LANÇA: Variomatic de 45 mm, triple efeito (chorro, pulverização cónica e fecho) e rosca fêmea de 1½”. diâmetro equivalente de 13mm. K mínimo 85 ·MANÓMETRO : Com rosca de ¼” GAS. Escala de 0-16 kg/cm2",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/MINI20M/MINI20M.jpg"
+    },
+    {
+      "id": 51,
+      "categoria": "bies",
+      "nome": "MIRAGE",
+      "referencia": "1786956529-26",
+      "descricao": "boca de incêndio equipada fixa com mangueira semirrígida. Carretel Basdomin. Dimensões 1700 X 900 x 420 mm. Composta por base e caixa circular para alojamiento do carretel de Ø525mm com alimentação axial. Mangueira semirrígida de Ø25mm e 20m de comprimento, segundo EN694:2001 modelo SATUR25. válvula de alavanca de 1” com manómetro e válvula antirretorno. Agulheta variomatic de triple efeito (diámetro equivalente 10mm). ·SUPORTE : Base construída em Acero Inox 304 com sistema de alarme. Dimensões 1700 X 900 x 420 mm. ·ARMÁRIO: Dimensões Ø900 x 220. ARMÁRIO circular construído em fibra de vidrio, fechadura ABS abre-fácil e metacrilato. Com entrada troquelada em a parte posterior para toma de água. ·CARRETE BASDOMIN: Pintado em vermelho Ral 3002, de 525 mm fixo com certificado N de AENOR.Colector de poliamida-fibra de vidrio, anticorrosão e muito resistente a a fricção. ·MANGUEIRA: Semirrígida de 25 mm. e 20 metros de comprimento, fabricada segundo Norma Em 694:2001 e com certificado de produto AENOR. Modelo Satur – 25. ·válvula de ESFERA: Válvula 25 de esfera de 1», latão cromado com toma para manómetro e peça para su verificação. ·LANÇA: Variomatic de 25 mm, triple efeito (chorro, pulverização cónica e fecho) e rosca fêmea de 1”. diâmetro equivalente de 10mm. ·MANÓMETRO: Com rosca de ¼” GAS. Escala de 0-16 kg/cm2 fichas técnicas: Mirage + Extintor Mirage Mirage",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/MIRAGE/MIRAGE.jpg"
+    },
+    {
+      "id": 52,
+      "categoria": "bies",
+      "nome": "OCULTA",
+      "referencia": "1786956529-6",
+      "descricao": "boca de incêndio para embutir. para espaços nobres e reduzidos. Equipado com manguera, lanza, válvula e carrete.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/OCULTA/OCULTA.jpg"
+    },
+    {
+      "id": 53,
+      "categoria": "bies",
+      "nome": "PETTY",
+      "referencia": "1786956529-16",
+      "descricao": "Boca de incêndio modelo PETTY com equipamento completo",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/PETTY/PETTY.jpg"
+    },
+    {
+      "id": 54,
+      "categoria": "bies",
+      "nome": "PLUS",
+      "referencia": "1786956529-17",
+      "descricao": "ARMÁRIO de extintor modelo tradicional GISA. Fechadura de chave.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/PLUS/PLUS.jpg"
+    },
+    {
+      "id": 55,
+      "categoria": "bies",
+      "nome": "POLI",
+      "referencia": "1786956529-31",
+      "descricao": "fichas técnicas BIE Poli 2520 POLI45 20 Satur",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/POLI/POLI.jpg"
+    },
+    {
+      "id": 56,
+      "categoria": "bies",
+      "nome": "STAR",
+      "referencia": "1786956529-18",
+      "descricao": "ARMÁRIO de extintor modelo tradicional. Dobradiça triple e porta encastrada.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/STAR/STAR.jpg"
+    },
+    {
+      "id": 57,
+      "categoria": "bies",
+      "nome": "STAR V MARK",
+      "referencia": "1786956529-7",
+      "descricao": "Boca de incêndio armada para sistema de extinção de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/STAR V MARK/STAR V MARK.jpg"
+    },
+    {
+      "id": 58,
+      "categoria": "bies",
+      "nome": "STARE 30",
+      "referencia": "1786956529-19",
+      "descricao": "Boca de incêndio com armário de dobradiça triple e porta encastrada",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/STARE 30/STARE 30.jpg"
+    },
+    {
+      "id": 59,
+      "categoria": "bies",
+      "nome": "STARMARK",
+      "referencia": "1786956529-20",
+      "descricao": "Boca de incêndio com design moderno STARMARK e acabamento premium",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/STARMARK/STARMARK.jpg"
+    },
+    {
+      "id": 60,
+      "categoria": "bies",
+      "nome": "STARTAD",
+      "referencia": "1786956529-21",
+      "descricao": "Boca de incêndio com armário de dobradiça triple e porta encastrada",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/STARTAD/STARTAD.jpg"
+    },
+    {
+      "id": 61,
+      "categoria": "bies",
+      "nome": "STAR/V",
+      "referencia": "1786956529-9",
+      "descricao": "Boca de incêndio com armário de dobradiça triple e porta encastrada",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/STARV/STARV.jpg"
+    },
+    {
+      "id": 62,
+      "categoria": "bies",
+      "nome": "SUNGLASS",
+      "referencia": "1786956529-8",
+      "descricao": "ARMÁRIO de extintor idóneo para proyectos de decoração onde a estética é fundamental.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/BIES/SUNGLASS/SUNGLASS.jpg"
+    },
+    {
+      "id": 63,
+      "categoria": "coluna-seca",
+      "nome": "BIF45FIBRA · BIFURCAÇÃO 45×45",
+      "referencia": "1786956790-4",
+      "descricao": "Bifurcação 45 x 45 mm, desenhada em Poliamida 6 (PA6) com um 30% de fibra de vidro e alumínio anodizado. Com interior de plástico, racores e tampas em alumínio. Entrada (porca louca) 1 x 70 mm – 2 ½ Fêmea Saída (racor barcelona 45 + tampões) 2 x45 mm – 2 x 1 ½ Macho Produto manejável, robusto e de altas prestações.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/COLUNA SECA/BIF45FIBRA - BIFURCACAO 45x45/BIF45FIBRA - BIFURCACION 45x45.jpg"
+    },
+    {
+      "id": 64,
+      "categoria": "coluna-seca",
+      "nome": "COFRE 39",
+      "referencia": "1786956790-6",
+      "descricao": "Cofre para coluna seca com registro de incêndio modelo 39",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/COLUNA SECA/COFRE 39/COFRE 39.jpg"
+    },
+    {
+      "id": 65,
+      "categoria": "coluna-seca",
+      "nome": "COFRE 40",
+      "referencia": "1786956790-7",
+      "descricao": "Cofre para coluna seca com registro de incêndio modelo 40",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/COLUNA SECA/COFRE 40/COFRE 40.jpg"
+    },
+    {
+      "id": 66,
+      "categoria": "coluna-seca",
+      "nome": "COFRE 41",
+      "referencia": "1786956790-8",
+      "descricao": "Cofre para coluna seca com registro de incêndio modelo 41",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/COLUNA SECA/COFRE 41/COFRE 41.jpg"
+    },
+    {
+      "id": 67,
+      "categoria": "coluna-seca",
+      "nome": "COSECA · SAÍDA MECÂNICA",
+      "referencia": "1786956790-13",
+      "descricao": "Válvula de saída mecânica COSECA para coluna seca",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/COLUNA SECA/COSECA - SAIDA MECANICA/COSECA - SAIDA MECANICA.jpg"
+    },
+    {
+      "id": 68,
+      "categoria": "coluna-seca",
+      "nome": "DN25 · BIFURCAÇÃO",
+      "referencia": "1786956790-2",
+      "descricao": "Bifurcação DN25 para sistema de coluna seca",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/COLUNA SECA/DN25 - BIFURCACAO/DN25 - BIFURCACION.jpg"
+    },
+    {
+      "id": 69,
+      "categoria": "coluna-seca",
+      "nome": "DN45 · BIFURCAÇÃO",
+      "referencia": "1786956790-3",
+      "descricao": "Bifurcação DN45 para sistema de coluna seca",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/COLUNA SECA/DN45 - BIFURCACAO/DN45 - BIFURCACION.jpg"
+    },
+    {
+      "id": 70,
+      "categoria": "coluna-seca",
+      "nome": "DN70 · BIFURCAÇÃO",
+      "referencia": "1786956790-5",
+      "descricao": "Bifurcação DN70 para sistema de coluna seca",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/COLUNA SECA/DN70 - BIFURCACAO/DN70 - BIFURCACION.jpg"
+    },
+    {
+      "id": 71,
+      "categoria": "coluna-seca",
+      "nome": "DRARV · AERADOR para COLUNA SECA",
+      "referencia": "1786956790-1",
+      "descricao": "A válvula de libertação de ar geralmente instala-se num sistema de canalização seca, mas também se pode usar em sistemas húmedos como a tubería vertical húmeda, de aspersor automático e os sistemas de carretel de mangueira de incêndio. A válvula automática de liberação de aire adopta uma simples operação de «flotador de bola» utilizando uma bola de borracha dura localizada na câmara da válvula superior. O ar na tubagem liberta-se através do orifício de ventilação quando inicialmente se enche com água até que a água chega à câmara da bola. A bola de borracha empurrar-se-á em direção a cima para selar o orifício de ventilação.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/COLUNA SECA/DRARV - AREJADOR PARA COLUNA SECA/DRARV - AREJADOR PARA COLUNA SECA.jpg"
+    },
+    {
+      "id": 72,
+      "categoria": "coluna-seca",
+      "nome": "IPF 39",
+      "referencia": "1786956790-9",
+      "descricao": "Registro de incêndio IPF 39 para coluna seca",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/COLUNA SECA/IPF 39/IPF 39.jpg"
+    },
+    {
+      "id": 73,
+      "categoria": "coluna-seca",
+      "nome": "IPF 40",
+      "referencia": "1786956790-10",
+      "descricao": "Registro de incêndio IPF 40 para coluna seca",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/COLUNA SECA/IPF 40/IPF 40.jpg"
+    },
+    {
+      "id": 74,
+      "categoria": "coluna-seca",
+      "nome": "IPF 41",
+      "referencia": "1786956790-11",
+      "descricao": "Registro de incêndio IPF 41 para coluna seca",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/COLUNA SECA/IPF 41/IPF 41.jpg"
+    },
+    {
+      "id": 75,
+      "categoria": "coluna-seca",
+      "nome": "LLSCC · CHAVE DE SECÇÃO",
+      "referencia": "1786956790-12",
+      "descricao": "Chave de secção entrada/saída. rosca interior 3″. Descarregar",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/COLUNA SECA/LLSCC - CHAVE DE SECCAO/LLSCC - CHAVE DE SECCION.jpg"
+    },
+    {
+      "id": 76,
+      "categoria": "coluna-seca",
+      "nome": "TRIFUR",
+      "referencia": "1786956790-14",
+      "descricao": "Trifurcação 45x45x70. Com racores e tampas de alumínio. Entrada rosca exterior 2½».",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/COLUNA SECA/TRIFURCACAO/TRIFURCACAO.jpg"
+    },
+    {
+      "id": 77,
+      "categoria": "exprinklers",
+      "nome": "34″ K115 RESPOSTA PADRÃO",
+      "referencia": "1786950000-77",
+      "descricao": "Aspersor K115 de resposta padrão para sistema de extinção de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/34 K115 RESPOSTA PADRAO/34 K115 RESPOSTA ESTANDAR.jpg"
+    },
+    {
+      "id": 78,
+      "categoria": "exprinklers",
+      "nome": "34″ K115 RESPOSTA RÁPIDA",
+      "referencia": "1786950000-78",
+      "descricao": "Aspersor K115 de resposta rápida para sistema de extinção de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/34 K115 RESPOSTA RAPIDA/34 K115 RESPOSTA RAPIDA.jpg"
+    },
+    {
+      "id": 79,
+      "categoria": "exprinklers",
+      "nome": "ARMÁRIO para ASPERSORES",
+      "referencia": "1786956881-32",
+      "descricao": "Armário para armazenamento e proteção de aspersores",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/ARMARIO PARA ASPERSORES/ARMARIO PARA ROCIADORES.jpg"
+    },
+    {
+      "id": 80,
+      "categoria": "exprinklers",
+      "nome": "BOCAIS E DIFUSORES WINDOW",
+      "referencia": "1786956881-27",
+      "descricao": "Difusor tipo janela para aspersores em áreas comerciais",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/BOQUILAS E DIFUSORES JANELA/BOQUILAS Y DIFUSORES JANELA.jpg"
+    },
+    {
+      "id": 81,
+      "categoria": "exprinklers",
+      "nome": "BOCAIS E DIFUSORES velocidade ALTA",
+      "referencia": "1786956881-24",
+      "descricao": "Difusor de alta velocidade com placa interna para efeito redemoinho",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/BOQUILAS E DIFUSORES VELOCIDADE ALTA/BOQUILAS Y DIFUSORES VELOCIDADE ALTA.jpg"
+    },
+    {
+      "id": 82,
+      "categoria": "exprinklers",
+      "nome": "BOCAIS E DIFUSORES velocidade MÉDIA",
+      "referencia": "1786956881-26",
+      "descricao": "Difusor de média velocidade com deflector externo e cone direcional",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/BOQUILAS E DIFUSORES VELOCIDADE MEDIA/BOQUILAS Y DIFUSORES VELOCIDADE MEDIA.jpg"
+    },
+    {
+      "id": 83,
+      "categoria": "exprinklers",
+      "nome": "CHAVE para ASPERSOR",
+      "referencia": "1786956881-33",
+      "descricao": "Chave de ajuste para aspersores",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/CHAVE PARA ASPERSOR/CHAVE PARA ROCIADOR.jpg"
+    },
+    {
+      "id": 84,
+      "categoria": "exprinklers",
+      "nome": "COBERTURA ESTENDIDA K160 COMERCIAIS OCULTOS",
+      "referencia": "1786956881-12",
+      "descricao": "Aspersor K160 de cobertura estendida para armazéns e depósitos",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/COBERTURA ESTENDIDA K160 COMERCIAIS OCULTOS/COBERTURA ESTENDIDA K160 COMERCIAIS OCULTOS.jpg"
+    },
+    {
+      "id": 85,
+      "categoria": "exprinklers",
+      "nome": "COBERTURA STANDARD 1/2” K80 COMERCIAIS OCULTOS UL/FM",
+      "referencia": "1786956881-14",
+      "descricao": "Aspersor K80 de cobertura standard para áreas comerciais e industriais",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/COBERTURA PADRAO 1-2 K80 COMERCIAIS OCULTOS ULFM/COBERTURA ESTANDARD 1-2 K80 COMERCIAIS OCULTOS ULFM.jpg"
+    },
+    {
+      "id": 86,
+      "categoria": "exprinklers",
+      "nome": "COBERTURA ESTENDIDA RESPOSTA RÁPIDA DE PAREDE K115 ¾”",
+      "referencia": "1786956881-17",
+      "descricao": "Aspersor K115 de resposta rápida para sistema de extinção de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/COBERTURA ESTENDIDA RESPOSTA RAPIDA DE PAREDE K115 3-4/COBERTURA ESTENDIDA RESPOSTA RAPIDA DE PARED K115 3-4.jpg"
+    },
+    {
+      "id": 87,
+      "categoria": "exprinklers",
+      "nome": "COBERTURA PADRÃO 12” K80 COMERCIAIS OCULTOS ULFM",
+      "referencia": "1786950000-87",
+      "descricao": "Aspersor K80 de cobertura standard para áreas comerciais e industriais",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/COBERTURA PADRAO 1-2 K80 COMERCIAIS OCULTOS ULFM/COBERTURA ESTANDARD 1-2 K80 COMERCIAIS OCULTOS ULFM.jpg"
+    },
+    {
+      "id": 88,
+      "categoria": "exprinklers",
+      "nome": "DIFUSORES DE ALTA velocidade",
+      "referencia": "1786956881-25",
+      "descricao": "Difusores de alta velocidade com placa interna para efeito redemoinho. Uso em sistemas fixos de extinção por pulverização de água ou dilúvio.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/DIFUSORES DE ALTA VELOCIDADE/DIFUSORES DE ALTA VELOCIDADE.jpg"
+    },
+    {
+      "id": 89,
+      "categoria": "exprinklers",
+      "nome": "DIFUSORES DE CORTINA",
+      "referencia": "1786956881-23",
+      "descricao": "Difusores de cortina para proteção contra ou fogo adicional.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/DIFUSORES DE CORTINA/DIFUSORES DE CORTINA.jpg"
+    },
+    {
+      "id": 90,
+      "categoria": "exprinklers",
+      "nome": "DIFUSORES DE MÉDIA velocidade",
+      "referencia": "1786956881-22",
+      "descricao": "Difusores de média velocidade com deflector externo com um cone direcional que gera pequenas gotas.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/DIFUSORES DE MEDIA VELOCIDADE/DIFUSORES DE MEDIA VELOCIDADE.jpg"
+    },
+    {
+      "id": 91,
+      "categoria": "exprinklers",
+      "nome": "GAIOLAS ASPERSORES",
+      "referencia": "1786956881-29",
+      "descricao": "Gaiola protetora para aspersores contra danos mecânicos",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/GAIOLAS ASPERSORES/GAIOLAS ROCIADORES.jpg"
+    },
+    {
+      "id": 92,
+      "categoria": "exprinklers",
+      "nome": "GL112 · ARMAZENAGEM E NÃO-ARMAZENAGEM ASPERSORES K11.2 (160 METRIC)",
+      "referencia": "1786956881-1",
+      "descricao": "Aspersor para proteção de armazéns e depósitos",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/GL112 - ARMAZENAGEM ASPERSORES K11.2 (160 METRIC)/GL112 - ARMAZENAGEM ROCIADORES K11.2 (160 METRIC).jpg"
+    },
+    {
+      "id": 93,
+      "categoria": "exprinklers",
+      "nome": "GL112 · ARMAZENAGEM AND NÃO-ARMAZENAGEM ASPERSORES K11.2 160 METRIC",
+      "referencia": "1786950000-93",
+      "descricao": "Aspersor para proteção de armazéns e depósitos",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/GL112 - ARMAZENAGEM ASPERSORES K11.2 (160 METRIC)/GL112 - ARMAZENAGEM ROCIADORES K11.2 (160 METRIC).jpg"
+    },
+    {
+      "id": 94,
+      "categoria": "exprinklers",
+      "nome": "GXLO · ARMAZENAGEM E NÃO-ARMAZENAGEM ASPERSORES K11.2 (160 METRIC)",
+      "referencia": "1786956881-2",
+      "descricao": "Aspersor para proteção de armazéns e depósitos",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/GXLO - ARMAZENAGEM E NAO-ARMAZENAGEM ASPERSORES K11.2 (160 METRIC)/GXLO - ARMAZENAGEM AND NAO-ARMAZENAGEM ROCIADORES K11.2 (160 METRIC).jpg"
+    },
+    {
+      "id": 95,
+      "categoria": "exprinklers",
+      "nome": "GXLO · ARMAZENAGEM AND NÃO-ARMAZENAGEM ASPERSORES K11.2 160 METRIC",
+      "referencia": "1786950000-95",
+      "descricao": "Aspersor para proteção de armazéns e depósitos",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/GXLO - ARMAZENAGEM E NAO-ARMAZENAGEM ASPERSORES K11.2 (160 METRIC)/GXLO - ARMAZENAGEM AND NAO-ARMAZENAGEM ROCIADORES K11.2 (160 METRIC).jpg"
+    },
+    {
+      "id": 96,
+      "categoria": "exprinklers",
+      "nome": "JL14 & JL17 · PENDENTE ASPERSORES ESFR",
+      "referencia": "1786956881-28",
+      "descricao": "Aspersor ESFR para proteção de armazenagem de alto risco",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/JL14 E JL17 - PENDENTE ASPERSORES ESFR/JL14 E JL17 - PENDENT ROCIADORES ESFR.jpg"
+    },
+    {
+      "id": 97,
+      "categoria": "exprinklers",
+      "nome": "LATIGUILLA FLEXÍVEL COM TRANÇO",
+      "referencia": "1786956881-30",
+      "descricao": "Latiguilha flexível para Aspersor composto por bico, redutor 1/2″ ou 3/4″ NPT e suporte",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/LANCA FLEXIVEL COM TRANCADO/LANCA FLEXIVEL COM TRANCADO.jpg"
+    },
+    {
+      "id": 98,
+      "categoria": "exprinklers",
+      "nome": "LATIGUILLA FLEXÍVEL SEM TRANÇO",
+      "referencia": "1786956881-31",
+      "descricao": "Latiguilha flexível para Aspersor composto por bico, redutor 1/2″ ou 3/4″ NPT e suporte Disponível em vários comprimentos",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/LANCA FLEXIVEL SEM TRANCADO/LANCA FLEXIVEL SEM TRANCADO.jpg"
+    },
+    {
+      "id": 99,
+      "categoria": "exprinklers",
+      "nome": "MDFB / LATIGUILLA TRANÇADA & MDFU / LATIGUILLA SEM TRANÇO · GISA-FLEX",
+      "referencia": "1786956881-3",
+      "descricao": "Latiguilha para aspersores GISA-FLEX, disponível trançada ou sem tranço",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/MDFB LANCA TRANCAD E MDFU LANCA SEM TRENZAR - GISA-FLEX/MDFB LANCA TRANCAD E MDFU LANCA SEM TRENZAR - GISA-FLEX.jpg"
+    },
+    {
+      "id": 100,
+      "categoria": "exprinklers",
+      "nome": "MINIATURA ASPERSOR PROTEÇÃO para 15MM 12” AND 20MM 34” ASPERSORES",
+      "referencia": "1786950000-100",
+      "descricao": "Aspersor em miniatura para proteção de 15mm e 20mm",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/MINIATURA ASPERSOR PROTECAO PARA 15MM 1-2 E 20MM 3-4 ASPERSORES/MINIATURA ROCIADOR PROTECAO FOR 15MM 1-2 AND 20MM 3-4 ROCIADORES.jpg"
+    },
+    {
+      "id": 101,
+      "categoria": "exprinklers",
+      "nome": "N25 (SEM RA0912) · EARLY SUPPRESSION FAST RESPONSE ASPERSOR",
+      "referencia": "1786956881-39",
+      "descricao": "Aspersor N25 de supressão precoce com resposta rápida (ESFR)",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/N25 SEM RA0912 - SUPRESSAO PRECOCE RAPIDA RESPONSE ASPERSOR/N25 SEM RA0912 - PRECOCE SUPRESSAO RAPIDA RESPONSE ROCIADOR.jpg"
+    },
+    {
+      "id": 102,
+      "categoria": "exprinklers",
+      "nome": "P22 ESFR · PENDENTE ASPERSORES 175 PSI (12 BAR) RATED",
+      "referencia": "1786956881-36",
+      "descricao": "Aspersor ESFR para proteção de armazenagem de alto risco",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/P22 ESFR - PENDENTE ASPERSORES 175 PSI 12 BAR RATED/P22 ESFR - PENDENT ROCIADORES 175 PSI 12 BAR RATED.jpg"
+    },
+    {
+      "id": 103,
+      "categoria": "exprinklers",
+      "nome": "RD022/RD023/RD024/RD025 · 15MM (1/2”) UPRIGHT/PENDANT",
+      "referencia": "1786956881-7",
+      "descricao": "Aspersor de suporte vertical para instalação em teto",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/RD022RD023RD024RD025 - 15MM 1-2 PENDENTE-PENDENTE/RD022RD023RD024RD025 - 15MM 1-2 PENDENTE-PENDENTE.jpg"
+    },
+    {
+      "id": 104,
+      "categoria": "exprinklers",
+      "nome": "RD042/RD043/RD044/RD045 · UPRIGHT AND PENDENTE ASPERSORES",
+      "referencia": "1786956881-8",
+      "descricao": "Aspersor pendente para instalação em teto",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/RD042RD043RD044RD045 - UPRIGHT E PENDENTE ASPERSORES/RD042RD043RD044RD045 - PENDENTE AND PENDENT ROCIADORES.jpg"
+    },
+    {
+      "id": 105,
+      "categoria": "exprinklers",
+      "nome": "RD060 / RD061 · horizontal PAREDE lateral ASPERSORES",
+      "referencia": "1786956881-18",
+      "descricao": "Aspersor de parede lateral para proteção horizontal",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/RD060 RD061 - HORIZONTAL SIDEWALL ASPERSORES/RD060 RD061 - HORIZONTAL SIDEWALL ROCIADORES.jpg"
+    },
+    {
+      "id": 106,
+      "categoria": "exprinklers",
+      "nome": "RD105 · QUICK & STANDARD RESPONSE, STANDARD COVERAGE",
+      "referencia": "1786956881-5",
+      "descricao": "Aspersor de resposta rápida e padrão com cobertura standard",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/RD105 - RAPIDA E STANDARD RESPONSE, STANDARD COVERAGE/RD105 - RAPIDA E STANDARD RESPONSE, STANDARD COVERAGE.jpg"
+    },
+    {
+      "id": 107,
+      "categoria": "exprinklers",
+      "nome": "ASPERSOR OCULTO DE PAREDE K115 3/4″ UL",
+      "referencia": "1786956881-16",
+      "descricao": "Aspersor K115 de resposta padrão para sistema de extinção de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/ASPERSOR OCULTO DE PAREDE K115 3-4 UL/ROCIADOR OCULTO DE PARED K115 3-4 UL.jpg"
+    },
+    {
+      "id": 108,
+      "categoria": "exprinklers",
+      "nome": "ASPERSORES COBERTURA STANDARD 1/2” K80 COMERCIAIS OCULTOS",
+      "referencia": "1786956881-21",
+      "descricao": "Aspersor K80 de cobertura standard para áreas comerciais e industriais",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/ASPERSORES COBERTURA PADRAO 1-2 K80 COMERCIAIS OCULTOS/ROCIADORES COBERTURA ESTANDARD 1-2 K80 COMERCIAIS OCULTOS.jpg"
+    },
+    {
+      "id": 109,
+      "categoria": "exprinklers",
+      "nome": "ASPERSORES COBERTURA STANDARD ¾” K115",
+      "referencia": "1786956881-9",
+      "descricao": "Aspersor K115 de resposta padrão para sistema de extinção de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/ASPERSORES COBERTURA PADRAO 3-4 K115/ROCIADORES COBERTURA ESTANDARD 3-4 K115.jpg"
+    },
+    {
+      "id": 110,
+      "categoria": "exprinklers",
+      "nome": "ASPERSORES OCULTOS",
+      "referencia": "1786956881-19",
+      "descricao": "Aspersores residenciais ocultos, K80 Tampa em branco",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/ASPERSORES OCULTOS/ROCIADORES OCULTOS.jpg"
+    },
+    {
+      "id": 111,
+      "categoria": "exprinklers",
+      "nome": "ASPERSORES para ARMAZENAGEM ELO ¾” K160 RESPOSTA PADRÃO",
+      "referencia": "1786956881-34",
+      "descricao": "Aspersor K160 de cobertura estendida para armazéns e depósitos",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/ASPERSORES PARA ARMAZENAGEM ELO 3-4 K160 RESPOSTA PADRAO/ROCIADORES PARA ARMAZENAGEM ELO 3-4 K160 RESPOSTA STANDARD.jpg"
+    },
+    {
+      "id": 112,
+      "categoria": "exprinklers",
+      "nome": "ASPERSORES para ARMAZENAGEM ELO ¾” K160 RESPOSTA RÁPIDA",
+      "referencia": "1786956881-35",
+      "descricao": "Aspersor K160 de cobertura estendida para armazéns e depósitos",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/ASPERSORES PARA ARMAZENAGEM ELO 3-4 K160 RESPOSTA RAPIDA/ROCIADORES PARA ARMAZENAGEM ELO 3-4 K160 RESPOSTA RAPIDA.jpg"
+    },
+    {
+      "id": 113,
+      "categoria": "exprinklers",
+      "nome": "ASPERSORES para ARMAZENAGEM ESFR EC25 CMDA/CMSA 1” K25",
+      "referencia": "1786956881-38",
+      "descricao": "Aspersor ESFR para proteção de armazenagem de alto risco",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/ASPERSORES PARA ARMAZENAGEM ESFR EC25 CMDA-CMSA 1 K25/ROCIADORES PARA ARMAZENAGEM ESFR EC25 CMDACMSA 1 K25.jpg"
+    },
+    {
+      "id": 114,
+      "categoria": "exprinklers",
+      "nome": "ASPERSORES para ARMAZENAGEM ESFR ¾” K14 PENDENTE",
+      "referencia": "1786956881-37",
+      "descricao": "fichas técnicas: Armazenagem ESFR ¾” K14 COLG ULFM grupo-de-incendios",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/ASPERSORES PARA ARMAZENAGEM ESFR 3-4 K14 PENDENTE/ROCIADORES PARA ARMAZENAGEM ESFR 3-4 K14 PENDENTE.jpg"
+    },
+    {
+      "id": 115,
+      "categoria": "exprinklers",
+      "nome": "ROSETA DE DUAS PEÇAS",
+      "referencia": "1786956881-6",
+      "descricao": "Aspersor automático para sistema de extinção de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXPRINKLERS/ROSETA DE DUAS PECAS/TWO PIECE ROSETTE.jpg"
+    },
+    {
+      "id": 116,
+      "categoria": "extintores",
+      "nome": "BILI 2 · EXTINTOR DE CO2 2KG",
+      "referencia": "1786956860-3",
+      "descricao": "Extintor de CO2 BILI 2kg para incêndios elétricos e classe B",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXTINTORES/BILI 2 - EXTINTOR DE CO2 DE 2KG/BILI 2 - EXTINTOR DE CO2 DE 2KG.jpg"
+    },
+    {
+      "id": 117,
+      "categoria": "extintores",
+      "nome": "BILI 25 · EXTINTOR MÓVEL DE pó POLIVALENTE ABC DE 25 KG",
+      "referencia": "1786956860-1",
+      "descricao": "Carro com extintor de incêndios de 25 kg móvel em pó abc tem múltiplas aplicações, para as classes a, b e c",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXTINTORES/BILI 25 - EXTINTOR MOVEL DE PO POLIVALENTE ABC DE 25 KG/BILI 25 - EXTINTOR MOVIL DE POLVO POLIVALENTE ABC DE 25 KG.jpg"
+    },
+    {
+      "id": 118,
+      "categoria": "extintores",
+      "nome": "BILI 3 · EXTINTOR DE pó POLIVALENTE ABC DE 3KG",
+      "referencia": "1786956860-14",
+      "descricao": "Extintor de pó polivalente ABC BILI 3kg",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXTINTORES/BILI 3 - EXTINTOR DE PO POLIVALENTE ABC DE 3KG/BILI 3 - EXTINTOR DE POLVO POLIVALENTE ABC DE 3KG.jpg"
+    },
+    {
+      "id": 119,
+      "categoria": "extintores",
+      "nome": "BILI 5 · EXTINTOR DE CO2 5KG",
+      "referencia": "1786956860-4",
+      "descricao": "Extintor de CO2 BILI 5kg para incêndios elétricos e classe B",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXTINTORES/BILI 5 - EXTINTOR DE CO2 DE 5KG/BILI 5 - EXTINTOR DE CO2 DE 5KG.jpg"
+    },
+    {
+      "id": 120,
+      "categoria": "extintores",
+      "nome": "BILI 50 · EXTINTOR MÓVEL DE pó POLIVALENTE ABC DE 50 KG",
+      "referencia": "1786956860-2",
+      "descricao": "Carro com extintor móvel BILI 50 de pó polivalente ABC, 50kg",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXTINTORES/BILI 50 - EXTINTOR MOVEL DE PO POLIVALENTE ABC DE 50 KG/BILI 50 - EXTINTOR MOVIL DE POLVO POLIVALENTE ABC DE 50 KG.jpg"
+    },
+    {
+      "id": 121,
+      "categoria": "extintores",
+      "nome": "BILI 6A · EXTINTOR automático DE pó POLIVALENTE ABC DE 6KG",
+      "referencia": "1786956860-15",
+      "descricao": "Extintor automático BILI 6A de pó polivalente ABC, 6kg",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXTINTORES/BILI 6A - EXTINTOR AUTOMATICO DE PO POLIVALENTE ABC DE 6KG/BILI 6A - EXTINTOR AUTOMATICO DE POLVO POLIVALENTE ABC DE 6KG.jpg"
+    },
+    {
+      "id": 122,
+      "categoria": "extintores",
+      "nome": "BILI10 · EXTINTOR DE CO2 10 KG",
+      "referencia": "1786956860-7",
+      "descricao": "Extintor de CO2 BILI 10kg para incêndios elétricos e classe B",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXTINTORES/BILI10 - EXTINTOR DE CO2 10 KG/BILI10 - EXTINTOR DE CO2 10 KG.jpg"
+    },
+    {
+      "id": 123,
+      "categoria": "extintores",
+      "nome": "BILI2-ABC · EXTINTOR DE pó POLIVALENTE ABC DE 2KG",
+      "referencia": "1786956860-13",
+      "descricao": "Extintor de pó polivalente ABC BILI 2kg",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXTINTORES/BILI2-ABC - EXTINTOR DE PO POLIVALENTE ABC DE 2KG/BILI2-ABC - EXTINTOR DE POLVO POLIVALENTE ABC DE 2KG.jpg"
+    },
+    {
+      "id": 124,
+      "categoria": "extintores",
+      "nome": "BILI6NW · EXTINTOR DE pó POLIVALENTE ABC DE 6KG",
+      "referencia": "1786956860-5",
+      "descricao": "Extintor de pó polivalente ABC BILI 6kg",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXTINTORES/BILI6NW - EXTINTOR DE PO POLIVALENTE ABC DE 6KG/BILI6NW - EXTINTOR DE POLVO POLIVALENTE ABC DE 6KG.jpg"
+    },
+    {
+      "id": 125,
+      "categoria": "extintores",
+      "nome": "BILI9NW · EXTINTOR DE pó POLIVALENTE ABC DE 9KG",
+      "referencia": "1786956860-6",
+      "descricao": "Extintor de pó polivalente ABC BILI 9kg",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXTINTORES/BILI9NW - EXTINTOR DE PO POLIVALENTE ABC DE 9KG/BILI9NW - EXTINTOR DE POLVO POLIVALENTE ABC DE 9KG.jpg"
+    },
+    {
+      "id": 126,
+      "categoria": "extintores",
+      "nome": "CAPA para CARROS DE EXTINTOR",
+      "referencia": "1786956860-9",
+      "descricao": "Capa para carro. para extintor de 25 ou 50 Kg.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXTINTORES/CAPA PARA CARROS DE EXTINTOR/CAPA PARA CARROS DE EXTINTOR.jpg"
+    },
+    {
+      "id": 127,
+      "categoria": "extintores",
+      "nome": "CAPA EXTINTOR ABC",
+      "referencia": "1786956860-10",
+      "descricao": "Capa para extintor. pó abc de 6, 9 ou 12 Kg.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXTINTORES/CAPA EXTINTOR ABC/CAPA EXTINTOR ABC.jpg"
+    },
+    {
+      "id": 128,
+      "categoria": "extintores",
+      "nome": "CAPA para CARROS DE EXTINTOR",
+      "referencia": "1786956860-9",
+      "descricao": "Capa protetora para carro de extintor, resistente a intempéries",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXTINTORES/CAPA PARA CARROS DE EXTINTOR/CAPA PARA CARROS DE EXTINTOR.jpg"
+    },
+    {
+      "id": 129,
+      "categoria": "extintores",
+      "nome": "CPBILI2BO",
+      "referencia": "1786956860-8",
+      "descricao": "Dois extintores de CO2 de 10Kg. válvula de alavanca. Carro incluído.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXTINTORES/CPBILI2BO/CPBILI2BO.jpg"
+    },
+    {
+      "id": 130,
+      "categoria": "extintores",
+      "nome": "EXTINTOR DE CO2 2KG",
+      "referencia": "1786956860-10",
+      "descricao": "Extintor de CO2 2kg para incêndios elétricos e classe B",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXTINTORES/EXTINTOR DE CO2 DE 2KG/EXTINTOR DE CO2 DE 2KG.jpg"
+    },
+    {
+      "id": 131,
+      "categoria": "extintores",
+      "nome": "EXTINTOR DE CO2 5KG",
+      "referencia": "1786956860-11",
+      "descricao": "Extintor de CO2 2kg para incêndios elétricos e classe B",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXTINTORES/EXTINTOR DE CO2 DE 5KG/EXTINTOR DE CO2 DE 5KG.jpg"
+    },
+    {
+      "id": 132,
+      "categoria": "extintores",
+      "nome": "EXTINTOR DE CO2 7.5KG",
+      "referencia": "1786956860-12",
+      "descricao": "Extintor de CO2 2kg para incêndios elétricos e classe B",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXTINTORES/EXTINTOR DE CO2 DE 5KG/EXTINTOR DE CO2 DE 5KG.jpg"
+    },
+    {
+      "id": 133,
+      "categoria": "extintores",
+      "nome": "EXTINTOR DE CO2 9KG",
+      "referencia": "1786956860-13",
+      "descricao": "Extintor de CO2 2kg para incêndios elétricos e classe B",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXTINTORES/EXTINTOR DE CO2 DE 9KG/EXTINTOR DE CO2 DE 9KG.jpg"
+    },
+    {
+      "id": 134,
+      "categoria": "extintores",
+      "nome": "EXTINTOR DE pó POLIVALENTE ABC 10KG",
+      "referencia": "1786956860-17",
+      "descricao": "Extintor de pó polivalente ABC 10kg para múltiplas classes de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXTINTORES/EXTINTOR DE PO POLIVALENTE ABC 10KG/EXTINTOR DE PO POLIVALENTE ABC 10KG.jpg"
+    },
+    {
+      "id": 135,
+      "categoria": "extintores",
+      "nome": "EXTINTOR DE pó POLIVALENTE ABC 2KG",
+      "referencia": "1786956860-14",
+      "descricao": "Extintor de pó polivalente ABC 2kg para múltiplas classes de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXTINTORES/EXTINTOR DE PO POLIVALENTE ABC 2KG/EXTINTOR DE PO POLIVALENTE ABC 2KG.jpg"
+    },
+    {
+      "id": 136,
+      "categoria": "extintores",
+      "nome": "EXTINTOR DE pó POLIVALENTE ABC 5KG",
+      "referencia": "1786956860-15",
+      "descricao": "Extintor de pó polivalente ABC 5kg para múltiplas classes de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXTINTORES/EXTINTOR DE PO POLIVALENTE ABC 5KG/EXTINTOR DE PO POLIVALENTE ABC 5KG.jpg"
+    },
+    {
+      "id": 137,
+      "categoria": "extintores",
+      "nome": "EXTINTOR DE pó POLIVALENTE ABC 7.5KG",
+      "referencia": "1786956860-16",
+      "descricao": "Extintor de pó polivalente ABC 7.5kg para múltiplas classes de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXTINTORES/EXTINTOR DE PO POLIVALENTE ABC 7.5KG/EXTINTOR DE PO POLIVALENTE ABC 7.5KG.jpg"
+    },
+    {
+      "id": 138,
+      "categoria": "extintores",
+      "nome": "MANTA IGNÍFUGA",
+      "referencia": "1786956860-11",
+      "descricao": "Manta ignífuga em fibra de vidrio. alta qualidade revestidas de borracha de silicone, garantindo a impermeabilidade frente às gorduras e aos azeites reduzindo assim o perigo de vapores. Capa fabricada em PVC de cor vermelha resistente aos golpes.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXTINTORES/MANTA IGNIFUGA/MANTA IGNIFUGA.jpg"
+    },
+    {
+      "id": 139,
+      "categoria": "extintores",
+      "nome": "PI-1",
+      "referencia": "1786956860-12",
+      "descricao": "Características agente extintor: pó abc Carga agente extintor: 1 Kg . ±5% agente propulsor: N 2 Carga agente propulsor: 10 g . pressão máxima de serviço: 17 Bar pressão de prova: 25 Ba r pressão a 20ºC : 15 Bar pressão de rotura de a botella : 190 Bar Eficiência: 5A-21B Temperaturas de Serviço: -20ºC a 60ºC Tempo de funcionamento: 6 s. Dimensões altura: 355 mm . diâmetro: 80 mm . Espessura mínima parede: 1,20 mm . volume: 1,35 litros Tara: 1,10 Kg . peso: 2,10 Kg . Uso aconselhável em fogos de classe a, B, C.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXTINTORES/PI-1/PI-1.jpg"
+    },
+    {
+      "id": 140,
+      "categoria": "extintores",
+      "nome": "PI-9ª",
+      "referencia": "1786956860-16",
+      "descricao": "extintor de incêndios automático. PÓ, ABC de 9 kg.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXTINTORES/PI-9a/PI-9a.jpg"
+    },
+    {
+      "id": 141,
+      "categoria": "extintores",
+      "nome": "SOPEXCROM · SUPORTE DE EXTINTOR CROMADO",
+      "referencia": "1786956860-17",
+      "descricao": "Suporte cromado para extintor de parede, acabamento em cobre",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXTINTORES/SOPEXCROM - SUPORTE DE EXTINTOR CROMADO/SOPEXCROM - SOPORTE DE EXTINTOR CROMADO.jpg"
+    },
+    {
+      "id": 142,
+      "categoria": "extintores",
+      "nome": "SUPORTE ABC VEÍCULO",
+      "referencia": "1786956860-18",
+      "descricao": "Suporte para extintor. pó abc para veículos",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXTINTORES/SUPORTE ABC VEICULO/SOPORTE ABC VEHICULO.jpg"
+    },
+    {
+      "id": 143,
+      "categoria": "extintores",
+      "nome": "SUPORTE CO2 VEÍCULO",
+      "referencia": "1786956860-19",
+      "descricao": "Suporte para extintor. CO2 para veículo.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/EXTINTORES/SUPORTE CO2 VEICULO/SOPORTE CO2 VEHICULO.jpg"
+    },
+    {
+      "id": 144,
+      "categoria": "hidrantes",
+      "nome": "CABANA INTEMPÉRIE DE FIBRA E CHAPA",
+      "referencia": "1786956771-6",
+      "descricao": "DOTAÇÃO Mangueira Satur Segundo CEPREVEN 1 bifurcação 45×45, sem tampas com racores Barcelona 45 mm 1 racor Barcelona rosca exterior de 70 mm 1 trecho mangueira plana Satur de 15 mm Racorado 70 mm 2 trechos de mangueira plana Satur de 15 mm Racorado 45 mm 2 agulhetas de 45 mm 1 agulheta de 70 mm 1 redução 70-45 DOTAÇÃO Mangueira Lunex Segundo CEPREVEN 1 bifurcação 45×45, sem tampas com racores Barcelona 45 mm 1 racor Barcelona rosca exterior de 70 mm 1 tramo mangueira plana Lunex de 15 mm Racorado 70 mm 2 trechos de mangueira plana Lunex de 15 mm Racorado 45 mm 2 agulhetas de 45 mm 1 agulheta de 70 mm 1 redução 70-45",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/HIDRANTES/CASETA INTEMPERIE DE FIBRA E CHAPA/CASETA INTEMPIRIE DE FIBRA Y CHAPA.jpg"
+    },
+    {
+      "id": 145,
+      "categoria": "hidrantes",
+      "nome": "COTOVELO FIXO",
+      "referencia": "1786956771-7",
+      "descricao": "Cotovelo fixo com diferentes entradas e saídas Racor Barcelona",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/HIDRANTES/COTOVELO FIXO/COTOVELO FIXO.jpg"
+    },
+    {
+      "id": 146,
+      "categoria": "hidrantes",
+      "nome": "COTOVELO GIRATÓRIO",
+      "referencia": "1786956771-8",
+      "descricao": "Cotovelo giratório Com possibilidade de diferentes entradas e saídas Racor Barcelona",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/HIDRANTES/COTOVELO GIRATORIO/COTOVELO GIRATORIO.jpg"
+    },
+    {
+      "id": 147,
+      "categoria": "hidrantes",
+      "nome": "HIDRANTE IVANCA COLUNA SECA · FICHA TÉCNICA GERAL",
+      "referencia": "1786956771-4",
+      "descricao": "Hidrante IVANCA de coluna seca para rede de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/HIDRANTES/HIDRANTE IVANCA COLUNA SECA - FICHA TECNICA GERAL/HIDRANTE IVANCA COLUNA SECA - FICHA TECNICA GERAL.jpg"
+    },
+    {
+      "id": 148,
+      "categoria": "hidrantes",
+      "nome": "HIDRANTE IVANCA · 3″ reto",
+      "referencia": "1786956771-9",
+      "descricao": "Hidrante IVANCA de coluna seca 3 polegadas, modelo reto ou curvo",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/HIDRANTES/HIDRANTE IVANCA - 3 RETO/HIDRANTE IVANCA - 3 RETO.jpg"
+    },
+    {
+      "id": 149,
+      "categoria": "hidrantes",
+      "nome": "HIDRANTE IVANCA · 3″ RETO",
+      "referencia": "1786950000-149",
+      "descricao": "Hidrante IVANCA de coluna seca 3 polegadas, modelo reto ou curvo",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/HIDRANTES/HIDRANTE IVANCA - 3 RETO/HIDRANTE IVANCA - 3 RETO.jpg"
+    },
+    {
+      "id": 150,
+      "categoria": "hidrantes",
+      "nome": "HIDRANTE IVANCA · 4″ reto",
+      "referencia": "1786956771-10",
+      "descricao": "Hidrante IVANCA de coluna seca 4 polegadas, modelo reto ou curvo",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/HIDRANTES/HIDRANTE IVANCA - 4 RETO/HIDRANTE IVANCA - 4 RETO.jpg"
+    },
+    {
+      "id": 151,
+      "categoria": "hidrantes",
+      "nome": "HIDRANTE IVANCA · 4″ RETO",
+      "referencia": "1786950000-151",
+      "descricao": "Hidrante IVANCA de coluna seca 4 polegadas, modelo reto ou curvo",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/HIDRANTES/HIDRANTE IVANCA - 4 RETO/HIDRANTE IVANCA - 4 RETO.jpg"
+    },
+    {
+      "id": 152,
+      "categoria": "hidrantes",
+      "nome": "HIDRANTE IVANCA · 6″ reto",
+      "referencia": "1786956771-11",
+      "descricao": "Hidrante IVANCA de coluna seca 6 polegadas, modelo reto ou curvo",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/HIDRANTES/HIDRANTE IVANCA - 6 RETO/HIDRANTE IVANCA - 6 RETO.jpg"
+    },
+    {
+      "id": 153,
+      "categoria": "hidrantes",
+      "nome": "HIDRANTE IVANCA · 6″ RETO",
+      "referencia": "1786950000-153",
+      "descricao": "Hidrante IVANCA de coluna seca 6 polegadas, modelo reto ou curvo",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/HIDRANTES/HIDRANTE IVANCA - 6 RETO/HIDRANTE IVANCA - 6 RETO.jpg"
+    },
+    {
+      "id": 154,
+      "categoria": "hidrantes",
+      "nome": "MAR-E/370E",
+      "referencia": "1786956771-12",
+      "descricao": "hidrante de incêndios instalado em uma câmara sob o chão com uma caixa de superfície, desenhado para fornecer água para a luta contra incêndios durante todas as fases do mesmo. É capaz de fornecer grande quantidade de água em pouco tempo. Permitindo a conexão de mangueiras e equipamentos de luta contra incêndios, além do enchimento das cisternas dos camiões de bombeiros. hidrante desenhado para ser colocado nas calçadas dos centros urbanos. Entrada Salidas Factor Kv P. servicio P. prueba vertical 1 boca 95 m3/h·bar 16 bar 25 bar Características : Válvula: Tipo Globo acionamento: Chave de quadradinho 25 x 25 Nº de Voltas até abertura total (totales): 9¼ Voltas Nº de Voltas até início de fluxo (muertas): 2 Voltas MOT (par máximo de manobra): 130 N·m mST ( par mínimo de resistência): 260 N·m MATERIALES: Corpo / Tampa/ Arqueta: Fabricado em fundição cinzento GGG-500 Mecanismo de acionamento: Fabricado em latão CuZn39Pb e aço inoxidável 304 Sistema de fecho: Fabricado em latão CuZn39Pb, aço inoxidável 304 e borracha NBR",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/HIDRANTES/MAR-E370E/MAR-E370E.jpg"
+    },
+    {
+      "id": 155,
+      "categoria": "hidrantes",
+      "nome": "NYCO 1.100 · HIDRANTE ENTERRADO",
+      "referencia": "1786956771-13",
+      "descricao": "Hidrante NYCO 1.100 enterrado para rede de incêndio subterrânea",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/HIDRANTES/NYCO 1.100 - HIDRANTE ENTERRADO/NYCO 1.100 - HIDRANTE ENTERRADO.jpg"
+    },
+    {
+      "id": 156,
+      "categoria": "hidrantes",
+      "nome": "NYCO 2.45",
+      "referencia": "1786956771-14",
+      "descricao": "hidrante de incêndios instalado em uma câmara sob o chão com uma caixa de superfície, desenhado para fornecer água para a luta contra incêndios durante todas as fases do mesmo. É capaz de fornecer grande quantidade de água em pouco tempo. Permitindo a conexão de mangueiras e equipamentos de luta contra incêndios, além do enchimento das cisternas dos camiões de bombeiros. hidrante desenhado para ser colocado nas calçadas dos centros urbanos. Entrada Salidas Factor Kv P. servicio P. prueba Flange DN80 2boca 1½” GAS racor BCN45 95 m3/h·bar 16 bar 25 bar Características : Válvula: Tipo Globo acionamento: Chave de quadradinho 25 x 25 Nº de Voltas até abertura total (totales): 9¼ Voltas Nº de Voltas até início de fluxo (muertas): 2 Voltas MOT (par máximo de manobra): 130 N·m mST ( par mínimo de resistência): 260 N·m MATERIALES: Mecanismo de acionamento: Fabricado em latão CuZn39Pb e aço inoxidável 304 Sistema de fecho: Fabricado em latão CuZn39Pb, aço inoxidável 304 e borracha NBR",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/HIDRANTES/NYCO 2.45/NYCO 2.45.jpg"
+    },
+    {
+      "id": 157,
+      "categoria": "hidrantes",
+      "nome": "NYCO270",
+      "referencia": "1786956771-15",
+      "descricao": "hidrante de incêndio. Instalado em uma cámara sob chão com uma caixa de superfície, desenhado para fornecer água para a luta contra incêndios durante todas as fases do mesmo.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/HIDRANTES/NYCO270/NYCO270.jpg"
+    },
+    {
+      "id": 158,
+      "categoria": "hidrantes",
+      "nome": "RACORES para HIDRANTES · FICHA TÉCNICA GERAL",
+      "referencia": "1786956771-5",
+      "descricao": "Racores e acessórios para hidrantes de incêndio, ficha técnica geral",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/HIDRANTES/RACORES PARA HIDRANTES - FICHA TECNICA GERAL/RACORES PARA HIDRANTES - FICHA TECNICA GERAL.jpg"
+    },
+    {
+      "id": 159,
+      "categoria": "jonesco",
+      "nome": "ARMÁRIO JBDE73",
+      "referencia": "1786956746-1",
+      "descricao": "Capacidade para dois extintores de até 6 Kg. lacre de borracha e janelas de policarbonato. Montagem reversível. lacre e pinheiro de plástico. tampa destacável e junta de estanqueidadee na porta. lacre e pinheiro de plástico em cada cofre. Medidas: 720x435x290",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/JONESCO/ARMARIO JBDE73/ARMARIO JBDE73.jpg"
+    },
+    {
+      "id": 160,
+      "categoria": "jonesco",
+      "nome": "ARMÁRIO JBFR64",
+      "referencia": "1786956746-2",
+      "descricao": "para extintores de pó de 6 Kg. Instalação em camiões e reboques. Correia interna para evitar que se mova o extintor dentro da caixa. Puntos de fijação grabados em a própria caixa para facilitar em encaixe. Tampa de dupla camada com vedação estanque. pinheiro de segurança, dobradiça e fecho de plástico com cada caixa. Acabado granulado.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/JONESCO/ARMARIO JBFR64/ARMARIO JBFR64.jpg"
+    },
+    {
+      "id": 161,
+      "categoria": "jonesco",
+      "nome": "ARMÁRIO JBFR75",
+      "referencia": "1786956746-3",
+      "descricao": "para extintores de pó de 9/12 Kg. Instalação em camiões e reboques. Estrutura durável, reforçada e leve. Correia interna para evitar que se mova o extintor dentro da caixa. pinheiro de segurança, dobradiça e fecho de plástico on cada caixa. respaldo plano para facilitar a instalação.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/JONESCO/ARMARIO JBFR75/ARMARIO JBFR75.jpg"
+    },
+    {
+      "id": 162,
+      "categoria": "jonesco",
+      "nome": "ARMÁRIO JBTE68",
+      "referencia": "1786956746-4",
+      "descricao": "para instalação em veículos ou edifícios. lacre de neopreno. tampa destacável e junta de estanqueidadee na porta. lacre e pinheiro de plástico com cada cofre.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/JONESCO/ARMARIO JBTE68/ARMARIO JBTE68.jpg"
+    },
+    {
+      "id": 163,
+      "categoria": "jonesco",
+      "nome": "ARMÁRIO JBWE70",
+      "referencia": "1786956746-5",
+      "descricao": "para instalar em veículos ou edifícios. lacre de borracha e janelas de policarbonato. Montagem reversível, abertura em direção à direita ou esquerda. Junta de estanqueidadee na porta. pinheiro de segurança, dobradiça e fecho de plástico incluído.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/JONESCO/ARMARIO JBWE70/ARMARIO JBWE70.jpg"
+    },
+    {
+      "id": 164,
+      "categoria": "jonesco",
+      "nome": "ARMÁRIO JBXE83",
+      "referencia": "1786956746-6",
+      "descricao": "para instalação em veículos ou edifícios. lacre de borracha e janelas de policarbonato. Montagem reversível, abertura da porta em direção à direita ou à esquerda. Junta de estanqueidadee na porta. pinheiro de segurança, dobradiça e fecho de plástico incluído.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/JONESCO/ARMARIO JBXE83/ARMARIO JBXE83.jpg"
+    },
+    {
+      "id": 165,
+      "categoria": "jonesco",
+      "nome": "ARMÁRIO JFEX03",
+      "referencia": "1786956746-7",
+      "descricao": "ARMÁRIO para extintor de 2 Kg com tampa destacável para uso rápido e furos de montagem para parafusos M8.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/JONESCO/ARMARIO JFEX03/ARMARIO JFEX03.jpg"
+    },
+    {
+      "id": 166,
+      "categoria": "jonesco",
+      "nome": "COFRE JBX100-COR",
+      "referencia": "1786956746-8",
+      "descricao": "Ideal para ou armazenamento em ou interior ou em ou exterior de extintores, equipamiento protector respiratorio, mangueras, mantas ignífugas, arena, botiquín de primeiros auxilios… caixa estanca. Se pode fechar com candado. resistente a productos químicos. Polietileno totalmente reciclable.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/JONESCO/COFRE JBX100-COR/COFRE JBX100-COR.jpg"
+    },
+    {
+      "id": 167,
+      "categoria": "jonesco",
+      "nome": "EQUIPAMENTO AUXILIAR JBKE85",
+      "referencia": "1786956746-9",
+      "descricao": "para armazenamento de extintores, mangueras, equipamientos respiratorios, equipamiento químico e de vertidos. Fijação em parede ou directamente sobre ou suelo. lacre de borracha e janelas de policarbonato. Montagem reversível com abertura de porta em direção a direita ou esquerda. Fechadura de plástico e compartimento com cristal rompible. Base de madeira.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/JONESCO/EQUIPAMENTO AUXILIAR JBKE85/EQUIPAMENTO AUXILIAR JBKE85.jpg"
+    },
+    {
+      "id": 168,
+      "categoria": "jonesco",
+      "nome": "JBDE72",
+      "referencia": "1786956746-10",
+      "descricao": "Capacidade para dois extintores de até 12 Kg. para instalar em veículos ou edifícios. lacre de borracha e janelas de policarbonato. Montagem reversível, abertura em direção à direita ou esquerda. Junta de estanqueidadee na porta. Base de madeira. pinheiro de segurança, dobradiça e fecho de plástico incluídos.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/JONESCO/JBDE72/JBDE72.jpg"
+    },
+    {
+      "id": 169,
+      "categoria": "jonesco",
+      "nome": "JBPOINT",
+      "referencia": "1786956746-11",
+      "descricao": "Ponto portátil de informação com caixas para guardar material de proteção, sanitários, mantas, etc. Cabides para a colocação de material preventivo.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/JONESCO/JBPOINT/JBPOINT.jpg"
+    },
+    {
+      "id": 170,
+      "categoria": "jonesco",
+      "nome": "SOPEXPLAS2",
+      "referencia": "1786956746-12",
+      "descricao": "Suporte em plástico com rodas para dois extintores de pó abc ou um de CO2 de 2kg.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/JONESCO/SOPEXPLAS2/SOPEXPLAS2.jpg"
+    },
+    {
+      "id": 171,
+      "categoria": "mangueiras",
+      "nome": "CARROS PORTA-MANGUEIRAS",
+      "referencia": "1786956840-1",
+      "descricao": "Carro porta-mangueiras para transporte e armazenamento de mangueiras de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/MANGUEIRAS/CARROS PORTAMANGUERAS/CARROS PORTAMANGUERAS.jpg"
+    },
+    {
+      "id": 172,
+      "categoria": "mangueiras",
+      "nome": "DURATEX",
+      "referencia": "1786956840-2",
+      "descricao": "Composição A mangueira duratex está formada por quatro capas: Uma primera capa fabricada em borracha nitrílico. Uma segunda capa tejida circularmente (evita defeitos como nudos, hilos rotos, etc,…) composta por: Urdimbre: Hilos de poliéster de alta tenacidad. Trama: Hilos de poliéster de alta tenacidad e monofilamento sintético. Uma tercera capa fabricada em ou mesmo borracha nitrílico que a capa interna. Uma cuarta capa fabricada em polietileno clorosulfonado. Características O seu design e peso torna-a uma mangueira fácil de enrolar, transportar e desdobrar. A sua boa flexibilidade, mesmo a baixas temperaturas, evita problemas de perdas de caudal e manuseio da mangueira. A sua alta aderência entre camadas confere uma muita boa resistência ao envelhecimiento. O design da primeira camada confere uma reduzida fricção (mínimas perdas de carga), e uma muita boa resistência à ação de produtos químicos (aditivos, aceites, gasóleos,…). O design da segunda camada confere uma boa resistência à pressão. O design da terceira e quarta camada confere uma melhor resistência às altas temperaturas, abrasão, intempérie e raios ultravioleta do que o resto de modelos de mangueiras contra incêndio. Aplicações Ideal para bombeiros e serviços profissionais de indústria Veículos de Incêndio Segurança Civil Aeroportos Indústria naval Refinarias Segurança pesada",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/MANGUEIRAS/DURATEX/DURATEX.jpg"
+    },
+    {
+      "id": 173,
+      "categoria": "mangueiras",
+      "nome": "LUNEX",
+      "referencia": "1786956840-3",
+      "descricao": "Composição A mangueira lunex está formada por três capas; Uma capa interior fabricada em borracha nitrílico. Uma capa intermédia tejida circularmente (evita defeitos como nudos, hilos rotos, etc,…) composta por: Urdimbre : Hilos de poliéster de alta tenacidad. Trama : Hilos de poliéster de alta tenacidad e monofilamento sintético. Uma capa exterior fabricada em ou mesmo borracha nitrílico . Características O seu design e peso torna-a uma mangueira fácil de enrolar, transportar e desdobrar. A sua boa flexibilidade, mesmo a baixas temperaturas, evita problemas de perdas de caudal e manuseio da mangueira. A sua alta aderência entre camadas confere uma muita boa resistência ao envelhecimiento. Ou diseño de a capa interior le confiere uma reducida fricção (mínimas perdas de carga), e uma muita boa resistência à ação de produtos químicos (aditivos, aceites, gasóleos,…). Ou diseño de a capa intermédia le confiere uma buena resistencia a a presão. Ou diseño de a capa exterior le confiere uma muito buena resistencia a as altas temperaturas, abrasão, intempérie e rayos ultravioleta. Aplicações Ideal para bombeiros e serviços profissionais de indústria Veículos de Incêndio Segurança Civil Aeroportos Indústria naval Refinarias Segurança pesada",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/MANGUEIRAS/LUNEX/LUNEX.jpg"
+    },
+    {
+      "id": 174,
+      "categoria": "mangueiras",
+      "nome": "SATUR PLANA",
+      "referencia": "1786956840-4",
+      "descricao": "Composição A mangueira satur plana está formada por dois capas: Uma capa interior ó manchon fabricado em borracha sintético especialmente formulado. Uma capa exterior tejida circularmente (evita defeitos como nudos, hilos rotos, etc,…), composta por hilos de poliéster de alta tenacidad tanto a trama, como a urdimbre. Características Su reducido peso le convierte em uma mangueira leve. Su gran flexibilidad, incluso a bajas temperaturas, le convierten em uma mangueira muito fácil de usar e enrollar. Ou diseño do refuerzo textil le confiere uma buena resistencia a a presão, e um buen aislante térmico. Ou proceso de fabricação do manchón interior assegura uma parede interna completamente lisa, com lo que le convierte em uma mangueira com mínima pérdida de caudal. Aplicações Equipação de bocas de incêndio Veículos de Incêndio Segurança Civil Forças Armadas Indústria em geral",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/MANGUEIRAS/SATUR PLANA/SATUR PLANA.jpg"
+    },
+    {
+      "id": 175,
+      "categoria": "postos-comando",
+      "nome": "GISA-ACV-FF · POSTO DE COMANDO",
+      "referencia": "1786956912-1",
+      "descricao": "Posto de comando GISA-ACV-FF para sistema de aspersão com válvula de controle",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/POSTO DE CONTROLE/GISA-ACV-FF - POSTO DE COMANDO/GISA-ACV-FF - POSTO DE COMTROL.jpg"
+    },
+    {
+      "id": 176,
+      "categoria": "postos-comando",
+      "nome": "GISA-ACV-GG · POSTO DE COMANDO",
+      "referencia": "1786956912-2",
+      "descricao": "Posto de comando GISA-ACV-GG para sistema de aspersão com válvula de controle",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/POSTO DE CONTROLE/GISA-ACV-GG - POSTO DE COMANDO/GISA-ACV-GG - POSTO DE COMTROL.jpg"
+    },
+    {
+      "id": 177,
+      "categoria": "postos-comando",
+      "nome": "RCV · POSTO DE COMANDO REDUZIDO",
+      "referencia": "1786956912-3",
+      "descricao": "Posto de comando reduzido RCV para sistema de aspersão",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/POSTO DE CONTROLE/RCV - POSTO DE COMANDO REDUZIDO/RCV - POSTO DE COMTROL REDUZIDO.jpg"
+    },
+    {
+      "id": 178,
+      "categoria": "sinalizacao",
+      "nome": "CF01",
+      "referencia": "1786957009-1",
+      "descricao": "Medidas: 297 x 210 mm Saída Seta Esquerda",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/SINALIZACAO/CF01/CF01.jpg"
+    },
+    {
+      "id": 179,
+      "categoria": "sinalizacao",
+      "nome": "CF02",
+      "referencia": "1786957009-2",
+      "descricao": "Medidas: 297 x 210 mm Saída seta direita.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/SINALIZACAO/CF02/CF02.jpg"
+    },
+    {
+      "id": 180,
+      "categoria": "sinalizacao",
+      "nome": "CF03STD",
+      "referencia": "1786957009-3",
+      "descricao": "Saída ESCADA DIREITO Sem TEXTO Medidas: 160 x 320 Material: GLASPACK 0,7 Branco brilho Cores: Verde PINHEIRO",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/SINALIZACAO/CF03STD/CF03STD.jpg"
+    },
+    {
+      "id": 181,
+      "categoria": "sinalizacao",
+      "nome": "CF03STI",
+      "referencia": "1786957009-4",
+      "descricao": "Saída ESCADAS ESQ. Sem TEXTO Medidas: 160 x 320 Material: GLASPACK 0,7 Branco brilho Cores: Verde PINHEIRO",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/SINALIZACAO/CF03STI/CF03STI.jpg"
+    },
+    {
+      "id": 182,
+      "categoria": "sinalizacao",
+      "nome": "CF04",
+      "referencia": "1786957009-5",
+      "descricao": "Medidas: 297 x 210 mm Saída",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/SINALIZACAO/CF04/CF04.jpg"
+    },
+    {
+      "id": 183,
+      "categoria": "sinalizacao",
+      "nome": "CF05",
+      "referencia": "1786957009-6",
+      "descricao": "Medidas: 297 x 210 mm Saída de Emergência",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/SINALIZACAO/CF05/CF05.jpg"
+    },
+    {
+      "id": 184,
+      "categoria": "sinalizacao",
+      "nome": "CF06",
+      "referencia": "1786957009-7",
+      "descricao": "Medidas: 297 x 210 mm Saída texto e seta direita",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/SINALIZACAO/CF06/CF06.jpg"
+    },
+    {
+      "id": 185,
+      "categoria": "sinalizacao",
+      "nome": "CF07",
+      "referencia": "1786957009-8",
+      "descricao": "Medidas: 297 x 210 mm Saída texto e seta esquerda",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/SINALIZACAO/CF07/CF07.jpg"
+    },
+    {
+      "id": 186,
+      "categoria": "sinalizacao",
+      "nome": "CF08",
+      "referencia": "1786957009-9",
+      "descricao": "Medidas: 224 x 224 mm Seta sem texto",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/SINALIZACAO/CF08/CF08.jpg"
+    },
+    {
+      "id": 187,
+      "categoria": "sinalizacao",
+      "nome": "CF09",
+      "referencia": "1786957009-10",
+      "descricao": "Medidas: 297 x 210 mm Extintor",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/SINALIZACAO/CF09/CF09.jpg"
+    },
+    {
+      "id": 188,
+      "categoria": "sinalizacao",
+      "nome": "CF10",
+      "referencia": "1786957009-11",
+      "descricao": "Medidas: 297 x 210 mm Pulsador de Alarma com Texto",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/SINALIZACAO/CF10/CF10.jpg"
+    },
+    {
+      "id": 189,
+      "categoria": "sinalizacao",
+      "nome": "CF11",
+      "referencia": "1786957009-12",
+      "descricao": "Medidas: 210 x 210 mm Pulsador de Alarma",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/SINALIZACAO/CF11/CF11.jpg"
+    },
+    {
+      "id": 190,
+      "categoria": "sinalizacao",
+      "nome": "CF12",
+      "referencia": "1786957009-13",
+      "descricao": "Medidas: 297 x 210 mm Avisador sonoro com Texto.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/SINALIZACAO/CF12/CF12.jpg"
+    },
+    {
+      "id": 191,
+      "categoria": "sinalizacao",
+      "nome": "CF14",
+      "referencia": "1786957009-14",
+      "descricao": "Medidas: 297 x 210 mm Não utilizável em caso de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/SINALIZACAO/CF14/CF14.jpg"
+    },
+    {
+      "id": 192,
+      "categoria": "sinalizacao",
+      "nome": "CF15",
+      "referencia": "1786957009-15",
+      "descricao": "Medidas: 300 x 150 mm Sem saída texto",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/SINALIZACAO/CF15/CF15.jpg"
+    },
+    {
+      "id": 193,
+      "categoria": "sinalizacao",
+      "nome": "CF16",
+      "referencia": "1786957009-16",
+      "descricao": "Medidas: 297 X 210 mm Extintor C02",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/SINALIZACAO/CF16/CF16.jpg"
+    },
+    {
+      "id": 194,
+      "categoria": "sinalizacao",
+      "nome": "CF17",
+      "referencia": "1786957009-17",
+      "descricao": "Medidas: 297 x 210 mm boca de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/SINALIZACAO/CF17/CF17.jpg"
+    },
+    {
+      "id": 195,
+      "categoria": "alto-risco",
+      "nome": "CARROS PORTA-MANGUEIRAS",
+      "referencia": "1786956684-1",
+      "descricao": "Carro porta-mangueiras para transporte e armazenamento de mangueiras",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/SISTEMA DE ALTO RISCO/CARROS PORTAMANGUERAS/CARROS PORTAMANGUERAS.jpg"
+    },
+    {
+      "id": 196,
+      "categoria": "alto-risco",
+      "nome": "ESPUMÓGENO POLI",
+      "referencia": "1786956684-5",
+      "descricao": "Caixas fabricados em polietileno. para proteção de riscos com possibilidade de incêndios de líquidos e combustíveis. fogos tipo b Dimensiões: 1520×740 mm",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/SISTEMA DE ALTO RISCO/ESPUMOGENO POLI/ESPUMOGENO POLI.jpg"
+    },
+    {
+      "id": 197,
+      "categoria": "alto-risco",
+      "nome": "ESPUMÓGENO Ø25 MM",
+      "referencia": "1786956684-3",
+      "descricao": "para proteção de riscos com possibilidade de incêndios de líquidos e combustíveis. fogos tipo b Dimensiões: 650x1300x245 mm",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/SISTEMA DE ALTO RISCO/ESPUMOGENO 25 MM/ESPUMOGENO 25 MM.jpg"
+    },
+    {
+      "id": 198,
+      "categoria": "alto-risco",
+      "nome": "ESPUMÓGENO Ø33 MM",
+      "referencia": "1786956684-4",
+      "descricao": "para proteção de riscos com possibilidade de incêndios de líquidos e combustíveis. fogos tipo b Dimensiões: 700x1400x245 mm",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/SISTEMA DE ALTO RISCO/ESPUMOGENO 33 MM/ESPUMOGENO 33 MM.jpg"
+    },
+    {
+      "id": 199,
+      "categoria": "alto-risco",
+      "nome": "ESPUMÓGENO Ø45 MM",
+      "referencia": "1786956684-2",
+      "descricao": "para proteção de riscos com possibilidade de incêndios de líquidos e combustíveis fogos tipo b Dimensiões: 700x1000x245 mm",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/SISTEMA DE ALTO RISCO/ESPUMOGENO 45 MM/ESPUMOGENO 45 MM.jpg"
+    },
+    {
+      "id": 200,
+      "categoria": "alto-risco",
+      "nome": "PROPORCIONADOR DE espuma",
+      "referencia": "1786956684-7",
+      "descricao": "Proporcionador de espuma Z2 E z4 para caudal de 200 l/min. ou 450 l/min. entrada e saída 2″ Macho-Macho Não inclui LTPZ2",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/SISTEMA DE ALTO RISCO/PROPORCIONADOR DE ESPUMA/PROPORCIONADOR DE ESPUMA.jpg"
+    },
+    {
+      "id": 201,
+      "categoria": "alto-risco",
+      "nome": "PROPÓRCIONADOR DE espuma",
+      "referencia": "1786950000-201",
+      "descricao": "Proporcionador de espuma Z2/Z4 para caudal de 200 ou 450 l/min",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/SISTEMA DE ALTO RISCO/PROPORCIONADOR DE ESPUMA/PROPORCIONADOR DE ESPUMA.jpg"
+    },
+    {
+      "id": 202,
+      "categoria": "valvulas",
+      "nome": "VÁLVULA 25",
+      "referencia": "1786956956-4",
+      "descricao": "Válvula 25 de assento, fabricada em latão estampado. Com saída 110º e roscas de 1″.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS/VALVULA 25/VALVULA 25.jpg"
+    },
+    {
+      "id": 203,
+      "categoria": "valvulas",
+      "nome": "VÁLVULA 25 ESFERA | BORBOLETA",
+      "referencia": "1786956956-3",
+      "descricao": "Válvula 25 de esfera fabricada em latão cromado. Abertura médiante borboleta. Rosca de 1″ fêmea-fêmea ou Macho-fêmea.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS/VALVULA 25 ESFERA BORBOLETA/VALVULA 25 ESFERA MARIPOSA.jpg"
+    },
+    {
+      "id": 204,
+      "categoria": "valvulas",
+      "nome": "VÁLVULA 25 ESFERA BORBOLETA",
+      "referencia": "1786950000-204",
+      "descricao": "Válvula 25 de esfera em latão cromado com alavanca, rosca 1 polegada",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS/VALVULA 25 ESFERA BORBOLETA/VALVULA 25 ESFERA MARIPOSA.jpg"
+    },
+    {
+      "id": 205,
+      "categoria": "valvulas",
+      "nome": "VÁLVULA 25 | REDUTOR",
+      "referencia": "1786956956-1",
+      "descricao": "Válvula 25 de esfera com desmultiplicador. Rosca de 1″ fêmea-fêmea, Macho-TC fêmea ou Macho-fêmea.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS/VALVULA 25 REDUTOR/VALVULA 25 REDUTOR.jpg"
+    },
+    {
+      "id": 206,
+      "categoria": "valvulas",
+      "nome": "VÁLVULA 45",
+      "referencia": "1786956956-5",
+      "descricao": "Válvula 45 de assento. Latão estampado com roscas de 1½’’. Entrada fêmea. Saída fêmea 1½”.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS/VALVULA 45/VALVULA 45.jpg"
+    },
+    {
+      "id": 207,
+      "categoria": "valvulas",
+      "nome": "VÁLVULA 52",
+      "referencia": "1786956956-6",
+      "descricao": "Válvula assento. rosca fêmea – fêmea 2″",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS/VALVULA 52/VALVULA 52.jpg"
+    },
+    {
+      "id": 208,
+      "categoria": "valvulas",
+      "nome": "VÁLVULA 70",
+      "referencia": "1786956956-7",
+      "descricao": "Válvula assento, roscas Macho – Macho 2½”.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS/VALVULA 70/VALVULA 70.jpg"
+    },
+    {
+      "id": 209,
+      "categoria": "valvulas",
+      "nome": "VÁLVULA ESFERA 2″ | Latão CROMADO",
+      "referencia": "1786956956-8",
+      "descricao": "válvula de esfera. Latão cromado com alavanca. Salidas de 2″ Macho-fêmea.",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS/VALVULA ESFERA 2 LATAO CROMADO/VALVULA ESFERA 2 LATAO CROMADO.jpg"
+    },
+    {
+      "id": 210,
+      "categoria": "valvulas-compressao",
+      "nome": "D81 · VÁLVULA DE BORBOLETA COM ALAVANCA RANHURADA",
+      "referencia": "1786956987-15",
+      "descricao": "Válvula de borboleta D81 com alavanca ranhurada para sistema de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS COMPRESSAO/D81 - VALVULA BORBOLETA COM ALAVANCA RANHURADA/D81 - VALVULA MARIPOSA COM ALAVANCA RANHURADA.jpg"
+    },
+    {
+      "id": 211,
+      "categoria": "valvulas-compressao",
+      "nome": "D81 · VÁLVULA BORBOLETA COM ALAVANCA RANHURADA",
+      "referencia": "1786950000-211",
+      "descricao": "Válvula de borboleta D81 com alavanca ranhurada para sistema de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS COMPRESSAO/D81 - VALVULA BORBOLETA COM ALAVANCA RANHURADA/D81 - VALVULA MARIPOSA COM ALAVANCA RANHURADA.jpg"
+    },
+    {
+      "id": 212,
+      "categoria": "valvulas-compressao",
+      "nome": "VÁLVULA DE COMPORTA DE BRONZE",
+      "referencia": "1786956987-10",
+      "descricao": "Válvula de comporta em bronze para sistema de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS COMPRESSAO/VALVULA DE COMPORTA DE BRONZE/VALVULA DE COMPORTA DE BRONCE.jpg"
+    },
+    {
+      "id": 213,
+      "categoria": "valvulas-compressao",
+      "nome": "GISA 130 FF · VÁLVULA DE COMPORTA NRS FLANGEADA para POSTE INDICADOR",
+      "referencia": "1786956987-1",
+      "descricao": "Válvula de comporta NRS flangeada GISA 130 para poste indicador",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS COMPRESSAO/GISA 130 FF - COMPORTA NRS FLANGEADA POSTE IND/GISA 130 FF - COMPORTA NRS EMBRIDADA POSTE IND.jpg"
+    },
+    {
+      "id": 214,
+      "categoria": "valvulas-compressao",
+      "nome": "GISA 400 FF · VÁLVULA DE COMPORTA OS&E COM FLANGES",
+      "referencia": "1786956987-4",
+      "descricao": "Válvula de comporta OS&E com flanges GISA para rede de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS COMPRESSAO/GISA 400 FF - VALVULA DE COMPORTA OS E e COM FLANGES/GISA 400 FF - VALVULA DE COMPORTA OS E e COM FLANGES.jpg"
+    },
+    {
+      "id": 215,
+      "categoria": "valvulas-compressao",
+      "nome": "GISA 430 FF · VÁLVULA DE COMPORTA OS&E COM FLANGES",
+      "referencia": "1786956987-3",
+      "descricao": "Válvula de comporta OS&E com flanges GISA para rede de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS COMPRESSAO/GISA 430 FF - VALVULA DE COMPORTA OS E e COM FLANGES/GISA 430 FF - VALVULA DE COMPORTA OS E e COM FLANGES.jpg"
+    },
+    {
+      "id": 216,
+      "categoria": "valvulas-compressao",
+      "nome": "GISA 530 GG · VÁLVULA DE COMPORTA OS&E RANHURADA",
+      "referencia": "1786956987-5",
+      "descricao": "Válvula de comporta OS&E ranhurada GISA 530 para rede de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS COMPRESSAO/GISA 530 GG - VALVULA DE COMPORTA OS E e RANHURADA/GISA 530 GG - VALVULA DE COMPORTA OS E e RANHURADA.jpg"
+    },
+    {
+      "id": 217,
+      "categoria": "valvulas-compressao",
+      "nome": "GISA 720 W · POSTE INDICADOR horizontal para VÁLVULA COMPORTA",
+      "referencia": "1786956987-11",
+      "descricao": "Válvula de comporta para sistema de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS COMPRESSAO/GISA 720 W - POSTE INDICADOR HORIZONTAL PARA VALVULA COMPORTA/GISA 720 W - POSTE INDICADOR HORIZONTAL PARA VALVULA COMPORTA.jpg"
+    },
+    {
+      "id": 218,
+      "categoria": "valvulas-compressao",
+      "nome": "GISA 730 V · POSTE INDICADOR vertical para VÁLVULA COMPORTA",
+      "referencia": "1786956987-12",
+      "descricao": "Válvula de comporta para sistema de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS COMPRESSAO/GISA 730 V - POSTE INDICADOR VERTICAL PARA VALVULA COMPORTA/GISA 730 V - POSTE INDICADOR VERTICAL PARA VALVULA COMPORTA.jpg"
+    },
+    {
+      "id": 219,
+      "categoria": "valvulas-compressao",
+      "nome": "GISA 900 G · VÁLVULAS DE BORBOLETA RANHURADAS com REDUTOR",
+      "referencia": "1786956987-13",
+      "descricao": "Válvula de borboleta ranhurada com redutor para rede de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS COMPRESSAO/GISA 900 G - VALVULAS DE BORBOLETA RANHURADAS COM REDUTOR/GISA 900 G - VALVULAS DE MARIPOSA RANHURADAS COM REDUTOR.jpg"
+    },
+    {
+      "id": 220,
+      "categoria": "valvulas-compressao",
+      "nome": "GISA800 · VÁLVULA DE BORBOLETA entre FLANGES COM REDUTOR",
+      "referencia": "1786956987-14",
+      "descricao": "Válvula de borboleta entre flanges com redutor para rede de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS COMPRESSAO/GISA800 - VALVULA DE BORBOLETA ENTRE FLANGES COM REDUTOR/GISA800 - VALVULA DE MARIPOSA ENTRE FLANGES COM REDUTOR.jpg"
+    },
+    {
+      "id": 221,
+      "categoria": "valvulas-compressao",
+      "nome": "GISA900 · VÁLVULA DE BORBOLETA DE FECHO lento",
+      "referencia": "1786950000-221",
+      "descricao": "Válvula de borboleta de fecho lento para rede de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS COMPRESSAO/GISA900 - VALVULA DE BORBOLETA DE FECHO LENTO/GISA900 - VALVULA DE MARIPOSA DE FECHO LENTO.jpg"
+    },
+    {
+      "id": 222,
+      "categoria": "valvulas-compressao",
+      "nome": "GISA900G · VÁLVULA DE BORBOLETA DE FECHO lento",
+      "referencia": "1786950000-222",
+      "descricao": "Válvula de borboleta de fecho lento para rede de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS COMPRESSAO/GISA900G - VALVULA DE BORBOLETA DE FECHO LENTO/GISA900G - VALVULA DE MARIPOSA DE FECHO LENTO.jpg"
+    },
+    {
+      "id": 223,
+      "categoria": "valvulas-compressao",
+      "nome": "GISAAIR · VÁLVULA DE PURGA DE AR",
+      "referencia": "1786950000-223",
+      "descricao": "Válvula de purga de ar GISAAIR para rede de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS COMPRESSAO/GISAAIR - VALVULA DE PURGA DE AR/GISAAIR - VALVULA DE PURGA DE AR.jpg"
+    },
+    {
+      "id": 224,
+      "categoria": "valvulas-compressao",
+      "nome": "GISAANTB · MANGUITO ANTIVIBRATÓRIO FLANGEADO",
+      "referencia": "1786950000-224",
+      "descricao": "Manguito antivibratório flangeado para rede de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS COMPRESSAO/GISAANTB - MANGUITO ANTIVIBRATORIO FLANGEADO/GISAANTB - MANGUITO ANTIVIBRATORIO FLANGEADO.jpg"
+    },
+    {
+      "id": 225,
+      "categoria": "valvulas-compressao",
+      "nome": "GISAANTR · MANGUITO ANTIVIBRATÓRIO ROSCADO",
+      "referencia": "1786950000-225",
+      "descricao": "Manguito antivibratório roscado para rede de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS COMPRESSAO/GISAANTR - MANGUITO ANTIVIBRATORIO ROSCADO/GISAANTR - MANGUITO ANTIVIBRATORIO ROSCADO.jpg"
+    },
+    {
+      "id": 226,
+      "categoria": "valvulas-compressao",
+      "nome": "H24X · VÁLVULA DE RETENÇÃO DUPLA VÁLVULA WAFER",
+      "referencia": "1786956987-16",
+      "descricao": "Válvula de retenção dupla tipo WAFER para rede de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS COMPRESSAO/H24X - VALVULA DE RETENCAO DUPLA VALVULA WAFER/H24X - VALVULA DE RETENCAO DUPLA VALVULA WAFER.jpg"
+    },
+    {
+      "id": 227,
+      "categoria": "valvulas-compressao",
+      "nome": "H84X · VÁLVULA DE RETENÇÃO OSCILANTE RANHURADA",
+      "referencia": "1786950000-227",
+      "descricao": "Válvula de retenção oscilante ranhurada para rede de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS COMPRESSAO/H84X - VALVULA DE RETENCAO OSCILANTE RANHURADA/H84X - VALVULA DE RETENCAO OSCILANTE RANHURADA.jpg"
+    },
+    {
+      "id": 228,
+      "categoria": "valvulas-compressao",
+      "nome": "PRESSOSTATO",
+      "referencia": "1786956987-8",
+      "descricao": "Pressostato para monitorização de pressão em rede de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS COMPRESSAO/PRESSOSTATO/PRESSOSTATO.jpg"
+    },
+    {
+      "id": 229,
+      "categoria": "valvulas-compressao",
+      "nome": "SWITCH INDICADOR DE FLUXO · WOSY1 / WOSY2",
+      "referencia": "1786956987-7",
+      "descricao": "Switch indicador de fluxo para monitorização de rede de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS COMPRESSAO/SWITCH INDICADOR DE FLUXO - WOSY1 WOSY2/SWITCH INDICADOR DE FLUXO - WOSY1 WOSY2.jpg"
+    },
+    {
+      "id": 230,
+      "categoria": "valvulas-compressao",
+      "nome": "VLEESFERA FMUL · VÁLVULA DE ESFERA ROSCADA COM ALAVANCA",
+      "referencia": "1786950000-230",
+      "descricao": "Válvula de esfera roscada com alavanca para rede de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS COMPRESSAO/VLEESFERA FMUL - VALVULA DE ESFERA ROSCADA COM PALANCA/VLEESFERA FMUL - VALVULA DE ESFERA ROSCADA COM PALANCA.jpg"
+    },
+    {
+      "id": 231,
+      "categoria": "valvulas-compressao",
+      "nome": "VLIMP112″ – VLIMP2” · VÁLVULA DE LIMPEZA E DRENAGEM",
+      "referencia": "1786950000-231",
+      "descricao": "Válvula de limpeza e drenagem roscada para rede de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS COMPRESSAO/VLIMP112 VLIMP2 - VALVULA DE LIMPEZA E DRENAGEM/VLIMP112 VLIMP2 - VALVULA DE LIMPEZA Y DRENAGEM.jpg"
+    },
+    {
+      "id": 232,
+      "categoria": "valvulas-compressao",
+      "nome": "VLRDTG · VÁLVULA DE REDUÇÃO DE pressão",
+      "referencia": "1786956987-6",
+      "descricao": "Válvula de redução de pressão para rede de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS COMPRESSAO/VLRDTG - VALVULA DE REDUCAO DE PRESSAO/VLRDTG - VALVULA DE REDUCCION DE PRESION.jpg"
+    },
+    {
+      "id": 233,
+      "categoria": "valvulas-compressao",
+      "nome": "VÁLVULA DE COMPORTA DE BRONZE",
+      "referencia": "1786950000-233",
+      "descricao": "Válvula de comporta em bronze para sistema de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS COMPRESSAO/VALVULA DE COMPORTA DE BRONZE/VALVULA DE COMPORTA DE BRONCE.jpg"
+    },
+    {
+      "id": 234,
+      "categoria": "valvulas-compressao",
+      "nome": "VÁLVULA DE TESTE E DRENAGEM ROSCADA",
+      "referencia": "1786950000-234",
+      "descricao": "Válvula de compressão e acessórios para rede de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS COMPRESSAO/VALVULA DE TESTE E DRENAGEM ROSCADA/VALVULA DE TESTE E DRENAGEM ROSCADA.jpg"
+    },
+    {
+      "id": 235,
+      "categoria": "valvulas-compressao",
+      "nome": "WFD · DETETOR DE FLUXO",
+      "referencia": "1786956987-9",
+      "descricao": "Detetor de fluxo WFD para monitorização de rede de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS COMPRESSAO/WFD - DETETOR DE FLUXO/WFD - DETETOR DE FLUXO.jpg"
+    },
+    {
+      "id": 236,
+      "categoria": "valvulas-compressao",
+      "nome": "YGL8 · FILTRO RANURADO",
+      "referencia": "1786950000-236",
+      "descricao": "Filtro ranurado YGL8 para rede de incêndio",
+      "preco": "SOB CONSULTA",
+      "imagem": "assets/catalogo_final_corrigido/imagens/VALVULAS COMPRESSAO/YGL8 - FILTRO RANHURADO/YGL8 - FILTRO RANURADO.jpg"
+    }
+  ]
+};
+;
+;
+function initMobileMenu(){var t=document.querySelector('.menu-toggle'),e=document.querySelector('.nav');t&&e&&(t.addEventListener('click',function(){e.classList.toggle('active')}),e.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){e.classList.remove('active')})}))}
+
+function initStickyHeader(){var t=document.querySelector('.header');window.addEventListener('scroll',function(){t.classList.toggle('scrolled',window.scrollY>50)})}
+
+function initScrollReveal(){var els=document.querySelectorAll('.servico-card,.categoria-card,.produto-card,.contato-item,.section-header,.sobre-content');els.forEach(function(el,i){el.classList.add('reveal');el.style.transitionDelay=(i%4)*0.1+'s'});var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target)}})},{threshold:0.1,rootMargin:'0px 0px -40px 0px'});els.forEach(function(el){obs.observe(el)})}
+
+function initBackToTop(){
+  var btn=document.getElementById('backToTop');
+  if(!btn)return;
+  window.addEventListener('scroll',function(){
+    btn.classList.toggle('visible',window.scrollY>400);
+  });
+  btn.addEventListener('click',function(){
+    window.scrollTo({top:0,behavior:'smooth'});
+  });
+}
+
+function initSearch(){var toggle=document.getElementById('searchToggle');var overlay=document.getElementById('searchOverlay');var input=document.getElementById('searchInput');var results=document.getElementById('searchResults');if(!toggle||!overlay||!input||!results||!catalogoData)return;var focusIdx=-1;function open(){overlay.classList.add('active');input.value='';results.innerHTML='';focusIdx=-1;setTimeout(function(){input.focus()},100)}function close(){overlay.classList.remove('active');input.value='';results.innerHTML='';focusIdx=-1}toggle.addEventListener('click',open);overlay.addEventListener('click',function(e){if(e.target===overlay)close()});document.addEventListener('keydown',function(e){if((e.ctrlKey||e.metaKey)&&e.key==='k'){e.preventDefault();overlay.classList.contains('active')?close():open()}if(e.key==='Escape'&&overlay.classList.contains('active'))close()});
+var basePath=location.pathname.indexOf('/pages/')!==-1?'../':'';input.addEventListener('input',function(){var q=input.value.trim().toLowerCase();results.innerHTML='';focusIdx=-1;if(q.length<1)return;var cats=catalogoData.categorias.filter(function(c){return c.nome.toLowerCase().indexOf(q)!==-1||c.descricao.toLowerCase().indexOf(q)!==-1});var prods=catalogoData.produtos.filter(function(p){return p.nome.toLowerCase().indexOf(q)!==-1||p.descricao.toLowerCase().indexOf(q)!==-1}).slice(0,10);var html='';cats.forEach(function(c){html+='<a href="'+basePath+'pages/categoria.html?id='+c.id+'" class="search-result-item"><div class="search-result-icon"><img src="'+basePath+c.imagem+'" alt="'+c.nome+'"></div><div class="search-result-text"><h4>'+c.nome+'</h4><p>'+c.descricao+'</p></div><span class="search-result-badge">Categoria</span></a>'});prods.forEach(function(p){var cat=catalogoData.categorias.find(function(c){return c.id===p.categoria});var catName=cat?cat.nome:'';html+='<a href="'+basePath+'pages/produto.html?id='+p.id+'" class="search-result-item"><div class="search-result-icon"><img src="'+basePath+p.imagem+'" alt="'+p.nome+'"></div><div class="search-result-text"><h4>'+p.nome+'</h4><p>'+catName+' · Ref: '+p.referencia+'</p></div><span class="search-result-badge">Produto</span></a>'});if(!html)html='<div class="search-empty">Nenhum resultado para \"'+input.value+'\"</div>';results.innerHTML=html;var items=results.querySelectorAll('.search-result-item');items.forEach(function(item,i){item.addEventListener('mouseenter',function(){focusIdx=i;updateFocus(items,focusIdx)})})});
+function updateFocus(items,idx){items.forEach(function(it,i){it.classList.toggle('focused',i===idx)})}document.addEventListener('keydown',function(e){if(!overlay.classList.contains('active'))return;var items=results.querySelectorAll('.search-result-item');if(!items.length)return;if(e.key==='ArrowDown'){e.preventDefault();focusIdx=Math.min(focusIdx+1,items.length-1);updateFocus(items,focusIdx);items[focusIdx].scrollIntoView({block:'nearest'})}else if(e.key==='ArrowUp'){e.preventDefault();focusIdx=Math.max(focusIdx-1,0);updateFocus(items,focusIdx);items[focusIdx].scrollIntoView({block:'nearest'})}else if(e.key==='Enter'&&focusIdx>=0){e.preventDefault();items[focusIdx].click()}})}
+
+function initContactForm(){var t=document.querySelector('#contactForm');t&&t.addEventListener('submit',function(e){e.preventDefault();alert('Mensagem enviada com sucesso!');t.reset()})}
+
+function renderMenuDropdown(){var t=document.querySelector('#menuDropdown');if(!t||!catalogoData)return;t.innerHTML=catalogoData.categorias.map(function(c){return'<a href="pages/categoria.html?id='+c.id+'">'+c.nome+'</a>'}).join('')}
+
+function renderCategoriasHome(){var t=document.querySelector('#categoriasHome');if(!t||!catalogoData)return;t.innerHTML=catalogoData.categorias.slice(0,8).map(function(c){return'<a href="pages/categoria.html?id='+c.id+'" class="categoria-card"><img src="'+c.imagem+'" alt="'+c.nome+'" class="categoria-card-img" loading="lazy"><div class="categoria-card-content"><h3>'+c.nome+'</h3><p>'+c.descricao+'</p></div></a>'}).join('')}
+
+function initCarousel(){var c=document.getElementById('portfolioImgs');if(!c)return;function load(i){var probe=new Image();probe.onload=function(){var img=document.createElement('img');img.src='assets/portifolio'+i+'.jpg';img.alt='Projeto '+i;img.style.cssText='width:100%;max-width:150px;height:150px;border-radius:8px;object-fit:cover;transition:transform 0.3s';c.appendChild(img);load(i+1)};probe.onerror=function(){};probe.src='assets/portifolio'+i+'.jpg'}load(1)}
+
+function renderCategorias(){var t=document.querySelector('#categoriasLista');if(!t||!catalogoData)return;t.innerHTML=catalogoData.categorias.map(function(c){return'<a href="categoria.html?id='+c.id+'" class="categoria-card"><img src="../'+c.imagem+'" alt="'+c.nome+'" class="categoria-card-img" loading="lazy"><div class="categoria-card-content"><h3>'+c.nome+'</h3><p>'+c.descricao+'</p></div></a>'}).join('')}
+
+function renderProdutos(categoriaId){var t=document.querySelector('#produtosLista');if(!t||!catalogoData)return;var cat=catalogoData.categorias.find(function(c){return c.id===categoriaId});if(cat){var n=document.querySelector('#categoriaNome'),d=document.querySelector('#categoriaDescricao');if(n)n.textContent=cat.nome;if(d)d.textContent=cat.descricao;var bc=document.querySelector('#breadcrumbs');if(bc)bc.innerHTML='<a href="../index.html">Home</a> / <a href="catalogo.html">Catálogo</a> / <span>'+cat.nome+'</span>'}var produtos=catalogoData.produtos.filter(function(p){return p.categoria===categoriaId});if(produtos.length===0){t.innerHTML='<p style="grid-column:1/-1;text-align:center;color:var(--cinza-claro);padding:2rem">Nenhum produto encontrado nesta categoria.</p>';return}t.innerHTML=produtos.map(function(p){return'<div class="produto-card"><img src="../'+p.imagem+'" alt="'+p.nome+'" class="produto-card-img" loading="lazy"><div class="produto-card-content"><span class="produto-card-ref">'+p.referencia+'</span><h3>'+p.nome+'</h3><p>'+p.descricao+'</p><div class="produto-card-footer"><span class="produto-preco">'+p.preco+'</span><a href="produto.html?id='+p.id+'" class="btn btn-primary" style="padding:.5rem 1rem;font-size:.85rem">Ver detalhes</a></div></div></div>'}).join('')}
+
+function renderProdutoDetalhe(produtoId){var t=document.querySelector('#produtoDetalhe');if(!t||!catalogoData)return;var produto=catalogoData.produtos.find(function(p){return p.id===parseInt(produtoId)});if(!produto){t.innerHTML='<p style="text-align:center;padding:4rem">Produto não encontrado.</p>';return}var cat=catalogoData.categorias.find(function(c){return c.id===produto.categoria});var bc=document.querySelector('#breadcrumbs');if(bc){bc.innerHTML='<a href="../index.html">Home</a> / <a href="catalogo.html">Catálogo</a> / '+(cat?'<a href="categoria.html?id='+produto.categoria+'">'+cat.nome+'</a> / ':'')+'<span>'+produto.nome+'</span>'}var specsHtml='';if(produto.especificacoes){specsHtml='<div class="especificacoes"><h3>Especificações Técnicas</h3><table>'+Object.entries(produto.especificacoes).map(function(e){return'<tr><td>'+e[0]+'</td><td>'+e[1]+'</td></tr>'}).join('')+'</table></div>'}t.innerHTML='<div class="produto-detalhe-container"><div class="produto-galeria"><img src="../'+produto.imagem+'" alt="'+produto.nome+'" loading="lazy"></div><div class="produto-info"><h1>'+produto.nome+'</h1><p class="produto-ref">Ref: '+produto.referencia+'</p><p class="produto-preco-grande">'+produto.preco+'</p><p class="produto-descricao">'+produto.descricao+'</p>'+specsHtml+'<a href="categoria.html?id='+produto.categoria+'" class="btn btn-primary" style="margin-top:1rem">Ver mais produtos</a></div></div>'}
+
+document.addEventListener('DOMContentLoaded',function(){initMobileMenu();initStickyHeader();initContactForm();initSearch();initBackToTop();var page=document.body.dataset.page;if(page==='home'){renderMenuDropdown();renderCategoriasHome();initCarousel()}else if(page==='catalogo'){renderCategorias()}else if(page==='categoria'){var urlParams=new URLSearchParams(window.location.search);var catId=urlParams.get('id');if(catId)renderProdutos(catId)}else if(page==='produto'){var urlParams2=new URLSearchParams(window.location.search);var produtoId=urlParams2.get('id');if(produtoId)renderProdutoDetalhe(produtoId)}setTimeout(initScrollReveal,100)});

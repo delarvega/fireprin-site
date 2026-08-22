@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Categoria - Fireprin</title>
+  <meta name="description" content="Produtos Fireprin por categoria - Segurança contra incêndio.">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+  <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+  <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" as="style">
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="icon" type="image/png" href="../assets/logo.png">
+</head>
+<body data-page="categoria">
+  <header class="header">
+    <div class="header-container">
+      <a href="../index.html"><img src="../assets/logo.png" alt="Fireprin" class="logo" width="360" height="120"></a>
+      <div class="header-center">
+        <button class="search-toggle" id="searchToggle" aria-label="Pesquisar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
+        <div class="menu-toggle"><span></span><span></span><span></span></div>
+        <nav class="nav">
+          <a href="../index.html">Home</a>
+          <a href="../index.html#sobre">Sobre</a>
+          <a href="../index.html#servicos">Serviços</a>
+          <a href="catalogo.html">Catálogo</a>
+          <a href="../index.html#contato">Contacto</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="search-overlay" id="searchOverlay">
+    <div class="search-container">
+      <div class="search-input-wrap">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" class="search-input" id="searchInput" placeholder="Pesquisar produtos, categorias..." autocomplete="off">
+        <span class="search-kbd">ESC</span>
+      </div>
+      <div class="search-results" id="searchResults"></div>
+      <div class="search-hint">
+        <kbd>↑</kbd><kbd>↓</kbd> navegar &nbsp;·&nbsp; <kbd>Enter</kbd> selecionar &nbsp;·&nbsp; <kbd>ESC</kbd> fechar
+      </div>
+    </div>
+  </div>
+
+  <div class="catalogo-page">
+    <div class="catalogo-header">
+      <h1 id="categoriaNome">Categoria</h1>
+      <p id="categoriaDescricao">Descrição da categoria</p>
+    </div>
+    <div class="breadcrumbs" id="breadcrumbs">
+      <a href="../index.html">Home</a> / <a href="catalogo.html">Catálogo</a> / <span>Categoria</span>
+    </div>
+    <div class="categorias-lista" id="produtosLista"></div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <img src="../assets/logo.png" alt="Fireprin" class="logo" loading="lazy" width="120" height="40">
+        <p>Fireprin Lisboa Lda<br>Rua de Sevilha, Nº 5<br>2605-868 Casal de Cambra<br>Tel: 219 810 659</p>
+      </div>
+      <div class="footer-links">
+        <h4>Links Rápidos</h4>
+        <a href="../index.html">Home</a>
+        <a href="../index.html#sobre">Sobre</a>
+        <a href="../index.html#servicos">Serviços</a>
+      </div>
+      <div class="footer-links">
+        <h4>Categorias</h4>
+        <a href="categoria.html?id=extintores">Extintores</a>
+        <a href="categoria.html?id=hidrantes">Hidrantes</a>
+        <a href="categoria.html?id=sprinklers">Sprinklers</a>
+        <a href="categoria.html?id=sinalizacao">Sinalização</a>
+      </div>
+    </div>
+    <div class="footer-bottom"><p>&copy; 2026 Fireprin Lisboa Lda. Todos os direitos reservados. | <a href="politica-privacidade.html" style="color:var(--amarelo);text-decoration:none">Política de Privacidade</a></p></div>
+  </footer>
+
+  <div id="cookieBanner" class="cookie-banner">
+    <div class="cookie-content">
+      <p>Este site utiliza apenas funcionalidades técnicas essenciais. Não utilizamos cookies de rastreamento. Ao continuar a navegar, concorda com a nossa <a href="politica-privacidade.html">Política de Privacidade</a>.</p>
+      <button id="cookieAccept" class="btn btn-primary" style="padding:.5rem 1.5rem;font-size:.85rem">Aceitar</button>
+    </div>
+  </div>
+
+  <script src="../js/main.js"></script>
+  <script>
+    (function(){
+      var banner=document.getElementById('cookieBanner');
+      var btn=document.getElementById('cookieAccept');
+      if(!banner||!btn)return;
+      if(localStorage.getItem('cookieAccepted')){banner.style.display='none';return}
+      btn.addEventListener('click',function(){localStorage.setItem('cookieAccepted','1');banner.style.display='none'});
+    })();
+  </script>
+<button class="back-to-top" id="backToTop" aria-label="Voltar ao topo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg></button>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+# Estado local das ferramentas (Freebuff / IDE)
+.freebuff/
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# Cópia de deploy local — a raiz do projeto já É o site
+site fireprin/
+
+# Material de origem / cópias antigas (não fazem parte do site publicado)
+catalogo pdf produtos/
+scratch/
+Pagina Produtos catalogo/
+Pagina Produtos catalogo.whtt
+backblue.gif
+fade.gif
+script.js
+styles.css
+
+# Backups
+*.bak
+
+# Netlify
+.netlify/

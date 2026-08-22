@@ -1,0 +1,151 @@
+# =============================================
+# FIREPRIN - CONFIGURACAO DE SEGURANCA
+# =============================================
+
+# --- HTTPS REDIRECT ---
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# --- FORCAR HTTPS ---
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# --- BLOQUEIO DE DIRETORIOS SENSIVEIS ---
+# Bloquear acesso a arquivos .env
+RewriteRule ^\.env$ - [F,L]
+
+# Bloquear acesso a diretorio /api
+RewriteRule ^api(/|$) - [F,L]
+
+# Bloquear acesso a diretorio /uploads
+RewriteRule ^uploads(/|$) - [F,L]
+
+# Bloquear acesso a diretorio /data
+RewriteRule ^data(/|$) - [F,L]
+
+# Bloquear acesso a diretorio /design site
+RewriteRule ^design.site(/|$) - [F,L]
+
+# Bloquear acesso a arquivos de configuracao
+RewriteRule ^\.htaccess$ - [F,L]
+RewriteRule ^\.htpasswd$ - [F,L]
+RewriteRule ^web\.config$ - [F,L]
+
+# --- DESATIVAR LISTAGEM DE DIRETORIOS ---
+Options -Indexes
+
+# --- BLOQUEAR HOTLINK DE IMAGENS ---
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^https?://(www\.)?fireprin\.pt [NC]
+RewriteCond %{HTTP_REFERER} !^https?://(www\.)?fireprinlisboa\.pt [NC]
+RewriteRule \.(jpg|jpeg|png|gif|webp|svg|bmp|ico|mp4)$ - [F,NC,L]
+
+# --- PROTECAO DE ARQUIVOS SENSIVEIS ---
+<FilesMatch "\.(env|ini|log|sql|bak|old|swp|tmp)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# --- HEADERS DE SEGURANCIA ---
+<IfModule mod_headers.c>
+    # Previnar clickjacking
+    Header always set X-Frame-Options "SAMEORIGIN"
+    
+    # Previnar MIME sniffing
+    Header always set X-Content-Type-Options "nosniff"
+    
+    # Ativar XSS Protection
+    Header always set X-XSS-Protection "1; mode=block"
+    
+    # Policy de Referrer
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    
+    # Policy de Permissoes
+    Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), interest-cohort=()"
+    
+    # HSTS (ativar apos confirmar HTTPS)
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+    
+    # CSP basico
+    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; frame-src https://www.google.com; connect-src 'self'"
+</IfModule>
+
+# --- COMPRESSAO GZIP ---
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE text/javascript
+    AddOutputFilterByType DEFLATE text/xml
+    AddOutputFilterByType DEFLATE text/plain
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/x-javascript
+    AddOutputFilterByType DEFLATE application/json
+    AddOutputFilterByType DEFLATE application/xml
+    AddOutputFilterByType DEFLATE application/rss+xml
+    AddOutputFilterByType DEFLATE application/atom+xml
+    AddOutputFilterByType DEFLATE image/svg+xml
+    AddOutputFilterByType DEFLATE font/ttf
+    AddOutputFilterByType DEFLATE font/otf
+    AddOutputFilterByType DEFLATE font/woff
+    AddOutputFilterByType DEFLATE font/woff2
+</IfModule>
+
+# --- CACHE INTELIGENTE ---
+<IfModule mod_expires.c>
+    ExpiresActive On
+    
+    # HTML - cache curto (1 hora)
+    ExpiresByType text/html "access plus 1 hour"
+    
+    # CSS e JS - cache medio (1 mes)
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType text/javascript "access plus 1 month"
+    
+    # Imagens - cache longo (6 meses)
+    ExpiresByType image/jpeg "access plus 6 months"
+    ExpiresByType image/png "plus 6 months"
+    ExpiresByType image/gif "access plus 6 months"
+    ExpiresByType image/webp "access plus 6 months"
+    ExpiresByType image/svg+xml "access plus 6 months"
+    ExpiresByType image/x-icon "access plus 6 months"
+    
+    # Fontes - cache longo (1 ano)
+    ExpiresByType font/ttf "access plus 1 year"
+    ExpiresByType font/otf "access plus 1 year"
+    ExpiresByType font/woff "access plus 1 year"
+    ExpiresByType font/woff2 "access plus 1 year"
+    
+    # Videos - cache longo (6 meses)
+    ExpiresByType video/mp4 "access plus 6 months"
+    
+    # JSON - cache medio (1 hora)
+    ExpiresByType application/json "access plus 1 hour"
+</IfModule>
+
+# --- CACHE DO BROWSER ---
+<IfModule mod_headers.c>
+    <FilesMatch "\.(css|js|woff|woff2|ttf|otf|eot|svg|png|jpe?g|gif|webp|mp4)$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </FilesMatch>
+    
+    <FilesMatch "\.(html|htm|json)$">
+        Header set Cache-Control "no-cache, must-revalidate"
+    </FilesMatch>
+</IfModule>
+
+# --- MIME TYPES ---
+<IfModule mod_mime.c>
+    AddType font/woff .woff
+    AddType font/woff2 .woff2
+    AddType font/ttf .ttf
+    AddType font/otf .otf
+    AddType video/mp4 .mp4
+    AddType image/webp .webp
+    AddType image/svg+xml .svg
+</IfModule>
+
+# --- CUSTOM ERROR PAGES ---
+ErrorDocument 403 /index.html
+ErrorDocument 404 /index.html
