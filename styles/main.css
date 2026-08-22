@@ -759,7 +759,7 @@ section { padding: 80px 5%; }
 
 /* ===================== BACK TO TOP ===================== */
 .back-to-top {
-  position: fixed; bottom: 24px; right: 24px;
+  position: fixed; bottom: 100px; right: 24px;
   width: 48px; height: 48px;
   border-radius: 50%;
   background: var(--safety-red);
