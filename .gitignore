@@ -23,5 +23,8 @@ styles.css
 # Backups
 *.bak
 
+# Backup do projeto
+fireprin backup/
+
 # Netlify
 .netlify/
